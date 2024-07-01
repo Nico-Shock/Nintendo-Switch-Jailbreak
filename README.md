@@ -1,5 +1,8 @@
 # Nintendo Switch Jailbreak Totorial
 
+## Updates
+-
+
 # SD Karten Vorbereitung
 
 ## Windows:

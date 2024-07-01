@@ -1,39 +1,75 @@
-## Nintendo Switch Jailbreak-Anleitung
+# Nintendo Switch Jailbreak Totorial
 
-### Vorbereitung:
-**Benötigte Materialien:**
+# SD Karten Vorbereitung
 
-- Nintendo Switch (V1)
-- microSD-Karte (mindestens 64GB)
-- RCM Jig oder ein Werkzeug zum Eingeben des RCM-Modus (z.B. eine Büroklammer)
+## Windows:
+
+Um die SD-Karte auf `Fat32` zu formatieren, führe die folgenden Schritte aus:
+
+1. Rechtsklicke auf die SD-Karte und wähle `Formatieren`.
+2. Wähle als Dateisystem `Fat32` aus und klicke auf `Formatieren`. 
+   
+   **Hinweis:** Wenn "Fat32" nicht als Option angezeigt wird, öffne die Eingabeaufforderung (cmd) als Administrator und führe die folgenden Befehle aus:
+
+   ```sh
+   diskpart
+   list disk
+   sel disk 2   // Wähle die Nummer der SD-Karte, z.B. Disk 2
+   format fs=fat32 quick
+
+Falls du eine SD-Karte hast, die größer als 32 GB ist und dein 3DS sie nicht erkennt, lade das Programm "Fat32 Format" herunter (von beliebiger Quelle). Wähle deine SD-Karte aus und setze die Größe auf 32768, um sie auf 32 GB zu begrenzen.
+
+## Linux:
+
+Um die SD-Karte in Linux zu formatieren, führe diese Schritte aus:
+
+1. Öffne das Terminal und führe `lsblk` aus, um die Disk-Informationen zu erhalten.
+2. Wähle die SD-Karte aus, indem du `sudo fdisk /dev/disk1` eingibst (ersetze `disk1` durch den tatsächlichen Namen der SD-Karte)
+3. Führe diesen Befehl aus, um die Partition in FAT32 zu formatieren:
+
+   ```bash
+   sudo mkfs.vfat -F 32 /dev/disk1
+
+## MacOS:
+
+Um in MacOS die SD-Karte in FAT32 zu formatieren, führe diese Schritte aus:
+
+1. Öffne das Terminal und schreibe `diskutil list`, um die Infos für die Disk zu bekommen.
+2. Unmounte die SD-Karte zuerst mit `diskutil unmountDisk /dev/disk1` (ersetze `disk1` durch den tatsächlichen Namen der SD-Karte).
+3. Führe dann den Befehl aus, um die SD-Karte in FAT32 zu formatieren: `diskutil eraseDisk FAT32 namedersdkarte MBRFormat /dev/disk1`.
+
+
+## Was Du brauchst
+
+- Nintendo Switch V1
+- microSD-Karte (mindestens 64GB wird empfohlen)
+- RCM Jig
 - USB-C-Kabel
 
-### Schritte:
-1. Überprüfen der Seriennummer:
+## Seriennummer prüfen
 
-   Stelle sicher, dass deine Switch jailbreakbar ist. Besuche [ismyswitchpatched.com](https://ismyswitchpatched.com/)
+Stelle sicher, dass deine Switch jailbreakbar ist. Besuche [ismyswitchpatched.com](https://ismyswitchpatched.com/).
 
-2. RCM-Modus aktivieren:
+## RCM-Modus vorbereiten und starten
 
-   - Schalte die Switch aus.
-   - Platziere den RCM Jig in der rechten Joy-Con-Schiene.
-   - Halte die Volume Up-Taste und den Power-Knopf gedrückt, um den RCM-Modus zu aktivieren.
+1. Schalte die Switch aus, indem du 3 Sekunden lang den Power-Knopf gedrückt hältst und "Ausschalten" wählst.
+2. Schiebe den RCM Jig in den rechten Joy-Con-Slot, bis er richtig sitzt.
+3. Halte die Lautstärke-Hoch-Taste und den Power-Knopf gedrückt, um den RCM-Modus zu aktivieren (halte erst die Lautstärke-Taste und dann die Power-Taste gedrückt).
 
-3. Payload senden:
+## Payload einspielen
 
-   - Lade TegraRcmGUI herunter von [github.com/eliboa/TegraRcmGUI/releases](https://github.com/eliboa/TegraRcmGUI/releases).
-   - Verbinde die Switch im RCM-Modus mit deinem PC.
-   - Öffne TegraRcmGUI und wähle die Hekate Payload.
+1. Lade TegraRcmGUI herunter von [github.com/eliboa/TegraRcmGUI/releases](https://github.com/eliboa/TegraRcmGUI/releases).
+2. Verbinde die Switch im RCM-Modus mit deinem PC über das USB-C-Kabel.
+3. Öffne TegraRcmGUI und wähle die Hekate Payload-Datei (es sollte eine ".bin"-Datei sein).
 
-4. Custom Firmware installieren:
+## CFW (Custom Firmware) installieren:
 
-   - Lade die neueste Version von Atmosphère herunter von [github.com/Atmosphere-NX/Atmosphere/releases](https://github.com/Atmosphere-NX/Atmosphere/releases).
-   - Entpacke die Atmosphère-Dateien auf die microSD-Karte.
-   - Kopiere die Dateien (z.B. bootloader und atmosphere Ordner) auf die microSD-Karte.
-   - Starte die Switch mit der Hekate Payload und folge den Bildschirmanweisungen zur Installation der Custom Firmware.
+1. Lade die neueste Version von Atmosphère CFW herunter von [github.com/Atmosphere-NX/Atmosphere/releases](https://github.com/Atmosphere-NX/Atmosphere/releases).
+2. Entpacke die Atmosphère-Dateien und kopiere sie auf deine SD-Karte.
+3. Du müsstest nun in der CFW starten.
 
-5. Homebrew-Apps installieren:
+## HB-Store installieren, um Apps zu installieren
 
-   - Lade den Homebrew App Store herunter von [github.com/fortheusers/hb-appstore/releases](https://github.com/fortheusers/hb-appstore/releases).
-   - Kopiere die Homebrew-App (.nro Datei) in den `/switch` Ordner auf der microSD-Karte.
-   - Starte die Switch im CFW-Modus und öffne die Homebrew-App über das Homebrew-Menü.
+1. Lade den Homebrew App Store herunter von [github.com/fortheusers/hb-appstore/releases](https://github.com/fortheusers/hb-appstore/releases).
+2. Kopiere die `.nro` Datei in den `/switch` Ordner auf der microSD-Karte.
+3. Du kannst den Homebrew über das Album starten oder du kannst auch R gedrückt halten und ein legitimes Spiel starten, um Homebrew mit Admin-Rechten zu öffnen und darüber den HB-Store zu öffnen.

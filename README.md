@@ -20,7 +20,6 @@ Um die SD-Karte auf `Fat32` zu formatieren, führe die folgenden Schritte aus:
    sel disk 2   // Wähle die Nummer der SD-Karte, z.B. Disk 2
    format fs=fat32 quick
 
-Falls du eine SD-Karte hast, die größer als 32 GB ist und dein 3DS sie nicht erkennt, lade das Programm "Fat32 Format" herunter (von beliebiger Quelle). Wähle deine SD-Karte aus und setze die Größe auf 32768, um sie auf 32 GB zu begrenzen.
 
 ## Linux:
 

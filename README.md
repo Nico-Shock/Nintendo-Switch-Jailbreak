@@ -54,6 +54,11 @@ Um in MacOS die SD-Karte in FAT32 zu formatieren, führe diese Schritte aus:
 
 Stelle sicher, dass man deine Switch jailbreaken kann. [IsMySwitchPatched](https://ismyswitchpatched.com/).
 
+# SD Karten Setup
+
+1. Downloade das Blue Edition RCM Pack [Blue Edition RCM](https://github.com/glitched-nx/Blue_Edition_2__RCM_V1/releases).
+2. Ziehe nun alle Daten auf das Startverzeichnis der SD-Karte.
+
 # RCM Modus vorbereiten und starten
 
    1. Schalte die Switch aus, indem du 3 Sekunden lang den Power-Knopf gedrückt hältst und unter Power Optionen "Ausschalten" wählst.
@@ -65,14 +70,6 @@ Stelle sicher, dass man deine Switch jailbreaken kann. [IsMySwitchPatched](https
    1. Lade TegraRcmGUI herunter von [TegraRcmGUI](https://github.com/eliboa/TegraRcmGUI/releases).
    2. Verbinde die Switch im RCM-Modus mit deinem PC über das USB-C-Kabel.
    3. Öffne TegraRcmGUI und wähle die Hekate Payload-Datei (es sollte eine ".bin" Datei sein).
-
-# CFW (Custom Firmware) installieren:
-
-   1. Lade die neueste Version von Atmosphère CFW von [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere/releases).
-   2. Entpacke die Atmosphère-Dateien und ziehe die Dateien auf deine SD-Karte.
-   3. Du müsstest nun in der CFW starten.
-  
-#
 
 # HB-Store installieren, um Apps zu installieren
 

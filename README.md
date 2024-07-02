@@ -100,6 +100,13 @@ Stelle sicher, dass man deine Switch jailbreaken kann. [IsMySwitchPatched](https
 7. Geht dann auf `Next Step` und dann auf `Start` und bestätigt alles weitere, um fortzufahren. Die SD-Karte wird partitioniert.
 8. Geht dann nochmal auf `Create emuMMC` und dann auf `SD Partition` und wählt Part 1.
 
+## Immer im RCM-Modus starten
+
+1. In Hekate geht wieder auf Tools.
+2. Geht dann ganz unten rechts auf irgendetwas mit "Arch Bit - RCM".
+3. Und wählt ganz rechts oben AutoRCM aus.
+
+Hiermit müsst ihr dann nicht immer den RCM-Jig und das USB-C-Kabel verbinden und den Payload neu laden, wenn ihr die Switch neu startet, sondern startet immer in Hekate rein.
 
 # HB-Store installieren, um Apps zu installieren
 

@@ -29,7 +29,6 @@ Um die SD-Karte auf `Fat32` zu formatieren, führe die folgenden Schritte aus:
    sel disk 2   // Wähle die Nummer der SD-Karte, z.B. Disk 2
    format fs=fat32 quick
 
-
 ## Linux:
 
 Um die SD-Karte in Linux zu formatieren, führe diese Schritte aus:
@@ -48,7 +47,6 @@ Um in MacOS die SD-Karte in FAT32 zu formatieren, führe diese Schritte aus:
 1. Öffne das Terminal und schreibe `diskutil list`, um die Infos für die Disk zu bekommen.
 2. Unmounte die SD-Karte zuerst mit `diskutil unmountDisk /dev/disk1` (ersetze `disk1` durch den tatsächlichen Namen der SD-Karte).
 3. Führe dann den Befehl aus, um die SD-Karte in FAT32 zu formatieren: `diskutil eraseDisk FAT32 namedersdkarte MBRFormat /dev/disk1`.
-
 
 # Seriennummer prüfen
 
@@ -70,6 +68,26 @@ Stelle sicher, dass man deine Switch jailbreaken kann. [IsMySwitchPatched](https
    1. Lade TegraRcmGUI herunter von [TegraRcmGUI](https://github.com/eliboa/TegraRcmGUI/releases).
    2. Verbinde die Switch im RCM-Modus mit deinem PC über das USB-C-Kabel.
    3. Öffne TegraRcmGUI und wähle die Hekate Payload-Datei (es sollte eine ".bin" Datei sein).
+
+# Hekate konfigurieren
+
+## Backup der NAND
+
+1. Schließt oben rechts das Launch-Fenster, nachdem ihr das Datum eingestellt habt.
+2. Geht dann oben rechts auf Tools.
+3. Wählt dann `Backup eMMC`.
+4. Wenn ihr wollt, könnt ihr die Option anschalten mit `SD emuMMC Raw Partition` (ich lasse es hier aus).
+5. Wählt dann die Option auf der linken Seite `eMMC BOOT0 & BOOT1` und wartet, bis es fertig ist.
+6. Wählt dann darunter `eMMC RAW GPP` und wartet, bis es fertig ist (dies dauert je nach Menge der Daten auf eurem System unterschiedlich lange).
+7. Schaltet dann die Switch aus und geht mit der SD-Karte an euren PC.
+8. Kopiert alle gebackupten Daten in einen Ordner (es müssten 15 rawnand.bin-Dateien auf der SD-Karte sein und die BOOT0 und BOOT1-Dateien).
+9. Löscht dann diese Dateien von eurer SD-Karte.
+
+## Wiederherstellung der NAND
+
+1. Kopiert die gebackupten Dateien und packt sie in `restore` dann `emummc` auf der SD-Karte.
+2. Wenn ihr dann in Hekate seid, könnt ihr unter Tools "Restore eMMC" wählen.
+3. Wählt dann `eMMC BOOT0 & BOOT1` und `eMMC RAW GPP` aus, um die Wiederherstellung durchzuführen.
 
 # HB-Store installieren, um Apps zu installieren
 

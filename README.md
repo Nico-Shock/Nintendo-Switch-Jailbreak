@@ -110,6 +110,8 @@ Hiermit müsst ihr dann nicht immer den RCM-Jig und das USB-C-Kabel verbinden un
 
 # HB-Store installieren, um Apps zu installieren
 
-   1. Downloade den Homebrew App Store [HB-App Store](https://github.com/fortheusers/hb-appstore/releases).
-   2. Ziehe die `.nro` Datei in den `/switch` Ordner auf die microSD-Karte.
-   3. Du kannst den Homebrew über das Album starten oder du kannst auch R gedrückt halten und ein legitimes Spiel starten, um Homebrew mit Admin-Rechten zu starten und darüber den HB-Store zu öffnen.
+   1. Schalte deine Switch komplett aus.
+   2. Downloade den Homebrew App Store [HB-App Store](https://github.com/fortheusers/hb-appstore/releases).
+   3. Ziehe die `.nro` Datei in den `/switch` Ordner auf die microSD-Karte.
+   4. Du kannst den Homebrew über das Album starten oder du kannst auch R gedrückt halten und ein legitimes Spiel starten, um Homebrew mit Admin-Rechten zu starten und darüber den HB-Store zu öffnen.
+  

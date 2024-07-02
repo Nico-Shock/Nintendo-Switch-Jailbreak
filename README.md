@@ -47,6 +47,7 @@ Um in MacOS die SD-Karte in FAT32 zu formatieren, führe diese Schritte aus:
 - microSD-Karte (mindestens 64GB wird empfohlen)
 - RCM Jig
 - USB-C-Kabel
+- PC/Laptop (oder ähnliches um Daten auf einer SD Karte zu bearbeiten)
 
 # Seriennummer prüfen
 

@@ -1,7 +1,8 @@
 # Nintendo Switch Jailbreak Totorial
 
 ## Updates
--
+- Ich werde noch Bilder hinzufügen wenn ich meine Switch V1 habe
+- ich versuche den text möglich genau anzupassen bzw. ich werde ihn verbessern
 
 # SD Karten Vorbereitung
 

@@ -61,13 +61,13 @@ Stelle sicher, dass man deine Switch jailbreaken kann. [IsMySwitchPatched](https
 
 # Payload einfügen
 
-   1. Lade TegraRcmGUI herunter von [github.com/eliboa/TegraRcmGUI/releases](https://github.com/eliboa/TegraRcmGUI/releases).
+   1. Lade TegraRcmGUI herunter von [TegraRcmGUI](https://github.com/eliboa/TegraRcmGUI/releases).
    2. Verbinde die Switch im RCM-Modus mit deinem PC über das USB-C-Kabel.
    3. Öffne TegraRcmGUI und wähle die Hekate Payload-Datei (es sollte eine ".bin" Datei sein).
 
 # CFW (Custom Firmware) installieren:
 
-   1. Lade die neueste Version von Atmosphère CFW von [github.com/Atmosphere-NX/Atmosphere/releases](https://github.com/Atmosphere-NX/Atmosphere/releases).
+   1. Lade die neueste Version von Atmosphère CFW von [Atmosphère](https://github.com/Atmosphere-NX/Atmosphere/releases).
    2. Entpacke die Atmosphère-Dateien und ziehe die Dateien auf deine SD-Karte.
    3. Du müsstest nun in der CFW starten.
   
@@ -75,6 +75,6 @@ Stelle sicher, dass man deine Switch jailbreaken kann. [IsMySwitchPatched](https
 
 # HB-Store installieren, um Apps zu installieren
 
-   1. Lade den Homebrew App Store herunter von [github.com/fortheusers/hb-appstore/releases](https://github.com/fortheusers/hb-appstore/releases).
-   2. Ziehe die .nro Datei in den /switch Ordner auf die microSD-Karte.
+   1. Downloade den Homebrew App Store [HB-App Store](https://github.com/fortheusers/hb-appstore/releases).
+   2. Ziehe die `.nro` Datei in den /switch Ordner auf die microSD-Karte.
    3. Du kannst den Homebrew über das Album starten oder du kannst auch R gedrückt halten und ein legitimes Spiel starten, um Homebrew mit Admin-Rechten zu starten und darüber den HB-Store zu öffnen.

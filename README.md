@@ -54,7 +54,7 @@ Stelle sicher, dass man deine Switch jailbreaken kann. [IsMySwitchPatched](https
 
 # SD Karten Setup
 
-1. Downloade das Blue Edition RCM Pack [Blue Edition RCM](https://github.com/glitched-nx/Blue_Edition_2__RCM_V1/releases).
+1. Downloade das Blue Edition RCM Pack [Blue Edition RCM Pack](https://github.com/glitched-nx/Blue_Edition_2__RCM_V1/releases).
 2. Ziehe nun alle Daten auf das Startverzeichnis der SD-Karte.
 
 # RCM Modus vorbereiten und starten

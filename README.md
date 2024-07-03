@@ -100,6 +100,13 @@ Stelle sicher, dass man deine Switch jailbreaken kann. [IsMySwitchPatched](https
 7. Geht dann auf `Next Step` und dann auf `Start` und bestätigt alles weitere, um fortzufahren. Die SD-Karte wird partitioniert.
 8. Geht dann nochmal auf `Create emuMMC` und dann auf `SD Partition` und wählt Part 1.
 
+## Falls ihr Linux installieren wollt:
+1. Downloadet [Switchroot Ubuntu](https://download.switchroot.org/ubuntu-bionic/) (wählt dann die aktuelle `Switchroot Ubuntu.7z`) und zieht die Ordner `switchroot` und `bootloader` auf eure SD-Karte.
+
+2. Geht dann in Hekate, nachdem ihr eure SD-Karte formatiert habt (wie im vorherigen Schritt), und wählt danach "Flash Linux" aus (ihr solltet noch im Formatierungsschritt sein, also das Fenster nicht geschlossen haben, sonst formatiert ihr einfach alles neu), um Linux zu installieren (euer SwitchOS wird nicht überschrieben).
+Ihr könnt auch "SD UMS" wählen, um eure SD-Karte am PC zu bearbeiten, ohne sie aus eurer Switch herauszunehmen.
+
+
 ## Immer im RCM-Modus starten
 
 1. In Hekate geht wieder auf Tools.
@@ -108,10 +115,17 @@ Stelle sicher, dass man deine Switch jailbreaken kann. [IsMySwitchPatched](https
 
 Hiermit müsst ihr dann nicht immer den RCM-Jig und das USB-C-Kabel verbinden und den Payload neu laden, wenn ihr die Switch neu startet, sondern startet immer in Hekate rein.
 
+# CFW Atmosphere Laden
+
+1. Geht in Hekate unter Home auf "Launch" und wählt "emuMMC" oder "Atmosphere emuMMC" aus, um dort hinein zu booten.
+
 # HB-Store installieren, um Apps zu installieren
 
    1. Schalte deine Switch komplett aus.
    2. Downloade den Homebrew App Store [HB-App Store](https://github.com/fortheusers/hb-appstore/releases).
    3. Ziehe die `.nro` Datei in den `/switch` Ordner auf die microSD-Karte.
    4. Du kannst den Homebrew über das Album starten oder du kannst auch R gedrückt halten und ein legitimes Spiel starten, um Homebrew mit Admin-Rechten zu starten und darüber den HB-Store zu öffnen.
-  
+
+# WICHTIG!!!
+
+SPIELT NICHT ONLINE, LADET KEINE UPDATES HERUNTER UND INTERAGIERT NICHT MIT DEN NINTENDO-SERVERN, SONST WERDET IHR ONLINE GEBANNT ODER EURE KONSOLE WIRD KOMPLETT GEBANNT.

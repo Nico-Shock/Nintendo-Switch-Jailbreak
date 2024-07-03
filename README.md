@@ -106,7 +106,6 @@ Stelle sicher, dass man deine Switch jailbreaken kann. [IsMySwitchPatched](https
 2. Geht dann in Hekate, nachdem ihr eure SD-Karte formatiert habt (wie im vorherigen Schritt), und wählt danach "Flash Linux" aus (ihr solltet noch im Formatierungsschritt sein, also das Fenster nicht geschlossen haben, sonst formatiert ihr einfach alles neu), um Linux zu installieren (euer SwitchOS wird nicht überschrieben).
 Ihr könnt auch "SD UMS" wählen, um eure SD-Karte am PC zu bearbeiten, ohne sie aus eurer Switch herauszunehmen.
 
-
 ## Immer im RCM-Modus starten
 
 1. In Hekate geht wieder auf Tools.
@@ -117,7 +116,7 @@ Hiermit müsst ihr dann nicht immer den RCM-Jig und das USB-C-Kabel verbinden un
 
 # CFW Atmosphere Laden
 
-1. Geht in Hekate unter Home auf "Launch" und wählt "emuMMC" oder "Atmosphere emuMMC" aus, um dort hinein zu booten.
+1. Geht in Hekate unter Home auf "Launch" und wählt "Atmosphere emuMMC" aus, um dort hinein zu booten.
 
 # HB-Store installieren, um Apps zu installieren
 

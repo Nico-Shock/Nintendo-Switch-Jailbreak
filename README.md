@@ -125,6 +125,16 @@ Hiermit müsst ihr dann nicht immer den RCM-Jig und das USB-C-Kabel verbinden un
    3. Ziehe die `.nro` Datei in den `/switch` Ordner auf die microSD-Karte.
    4. Du kannst den Homebrew über das Album starten oder du kannst auch R gedrückt halten und ein legitimes Spiel starten, um Homebrew mit Admin-Rechten zu starten und darüber den HB-Store zu öffnen.
 
+# Switch Ban (möglichst) vermeiden
+
+1. Downloadet [switch90dnssetter](https://github.com/suchmememanyskill/switch-90dns-setter/releases) und [switch90dnstester](https://github.com/meganukebmp/Switch_90DNS_tester/releases).
+2. Schaltet eure Switch komplett aus und steckt eure SD-Karte in euren PC.
+3. Geht auf die SD-Karte in den `switch`-Ordner und packt dort die Dateien `switch-90dns-setter.nro` und `Switch_90DNS_tester.nro` hinein.
+4. Packt dann eure SD-Karte wieder in eure Switch und schaltet sie ein (ihr solltet in Hekate starten).
+5. Geht dann in das Album in der CFW, um Homebrew zu öffnen, und wählt "90dns setter" aus.
+6. Drückt dann "X", um die DNS-Einstellungen für jedes Internet einzustellen, und wählt "Y", um neu zu starten.
+7. Wählt dann im Homebrew-Menü "90dns testing utility" und prüft, ob die Nintendo-Services geblockt wurden.
+
 # **WICHTIG!!!**
 
 SPIELT NICHT ONLINE, LADET KEINE UPDATES HERUNTER UND INTERAGIERT NICHT MIT DEN NINTENDO-SERVERN, SOLANGE IHR IN DER CFW SEID, SONST WERDET IHR ONLINE GEBANNT ODER EURE KONSOLE WIRD KOMPLETT GEBANNT.

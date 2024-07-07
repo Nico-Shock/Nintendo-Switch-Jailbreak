@@ -117,7 +117,7 @@ Hiermit müsst ihr dann nicht immer den RCM-Jig und das USB-C-Kabel verbinden un
 # CFW Atmosphere Laden
 
 1. Geht in Hekate unter Home auf "Launch" und wählt "Atmosphere emuMMC" aus, um dort hinein zu booten.
-2. 
+
 # Homebrew laden
 
    - Du kannst Homebrew über das Album starten oder R gedrückt halten und ein legitimes Spiel starten, um Homebrew mit Admin-Rechten zu starten und darüber eine App öffnen.

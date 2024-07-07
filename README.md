@@ -117,13 +117,11 @@ Hiermit müsst ihr dann nicht immer den RCM-Jig und das USB-C-Kabel verbinden un
 # CFW Atmosphere Laden
 
 1. Geht in Hekate unter Home auf "Launch" und wählt "Atmosphere emuMMC" aus, um dort hinein zu booten.
+2. 
+# Homebrew laden
 
-# HB-Store installieren, um Apps zu installieren
-
-   1. Schalte deine Switch komplett aus.
-   2. Downloade den Homebrew App Store [HB-App Store](https://github.com/fortheusers/hb-appstore/releases).
-   3. Ziehe die `.nro` Datei in den `/switch` Ordner auf die microSD-Karte.
-   4. Du kannst den Homebrew über das Album starten oder du kannst auch R gedrückt halten und ein legitimes Spiel starten, um Homebrew mit Admin-Rechten zu starten und darüber den HB-Store zu öffnen.
+   - Du kannst Homebrew über das Album starten oder R gedrückt halten und ein legitimes Spiel starten, um Homebrew mit Admin-Rechten zu starten und darüber eine App öffnen.
+   - Du kannst über den Homebrew-Appstore auch neue Apps herunterladen und nutzen.
 
 # Switch Ban (möglichst) vermeiden
 

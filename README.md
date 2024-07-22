@@ -41,6 +41,17 @@ Stelle sicher, dass man deine Switch jailbreaken kann. [IsMySwitchPatched](https
 
 # Hekate konfigurieren
 
+## SD-Karte partitionieren und emuMMC erstellen
+
+1. Wählt in Hekate `emuMMC` aus.
+2. Geht dann auf `Create emuMMC`.
+3. Wählt `SD Partition`.
+4. Geht dann auf Continue und dann auf OK.
+5. Wählt bei `emuMMC` die Balken auf Full, damit euer System komplett darauf kopiert wird (da CFW separat vom normalen System läuft).
+6. Ihr könnt auch für Android und Linux Speicher reservieren, falls ihr das installieren möchtet.
+7. Geht dann auf `Next Step` und dann auf `Start` und bestätigt alles weitere, um fortzufahren. Die SD-Karte wird partitioniert.
+8. Geht dann nochmal auf `Create emuMMC` und dann auf `SD Partition` und wählt Part 1.
+
 ## Backup der NAND
 
 1. Schließt oben rechts das Launch-Fenster, nachdem ihr das Datum eingestellt habt.
@@ -58,17 +69,6 @@ Stelle sicher, dass man deine Switch jailbreaken kann. [IsMySwitchPatched](https
 1. Kopiert die gebackupten Dateien und packt sie in `restore` dann `emummc` auf der SD-Karte.
 2. Wenn ihr dann in Hekate seid, könnt ihr unter Tools "Restore eMMC" wählen.
 3. Wählt dann `eMMC BOOT0 & BOOT1` und `eMMC RAW GPP` aus, um die Wiederherstellung durchzuführen.
-
-## SD-Karte partitionieren und sysMMC auf emuMMC kopieren
-
-1. Wählt in Hekate `emuMMC` aus.
-2. Geht dann auf `Create emuMMC`.
-3. Wählt `SD Partition`.
-4. Geht dann auf Continue und dann auf OK.
-5. Wählt bei `emuMMC` die Balken auf Full, damit euer System komplett darauf kopiert wird (da CFW separat vom normalen System läuft).
-6. Ihr könnt auch für Android und Linux Speicher reservieren, falls ihr das installieren möchtet.
-7. Geht dann auf `Next Step` und dann auf `Start` und bestätigt alles weitere, um fortzufahren. Die SD-Karte wird partitioniert.
-8. Geht dann nochmal auf `Create emuMMC` und dann auf `SD Partition` und wählt Part 1.
 
 ## Falls ihr Linux installieren wollt:
 1. Downloadet [Switchroot Ubuntu](https://download.switchroot.org/ubuntu-bionic/) (wählt dann die aktuelle `Switchroot Ubuntu.7z`) und zieht die Ordner `switchroot` und `bootloader` auf eure SD-Karte.

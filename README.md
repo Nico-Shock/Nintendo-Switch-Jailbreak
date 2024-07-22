@@ -1,9 +1,5 @@
 # Nintendo Switch Jailbreak Totorial
 
-## Updates
-- Ich werde noch Bilder hinzufügen wenn ich meine Switch V1 habe
-- ich versuche den text möglich genau anzupassen bzw. ich werde ihn verbessern
-
 # Was Du brauchst
 
 - Nintendo Switch V1
@@ -70,9 +66,9 @@ Stelle sicher, dass man deine Switch jailbreaken kann. [IsMySwitchPatched](https
 2. Wenn ihr dann in Hekate seid, könnt ihr unter Tools "Restore eMMC" wählen.
 3. Wählt dann `eMMC BOOT0 & BOOT1` und `eMMC RAW GPP` aus, um die Wiederherstellung durchzuführen.
 
-## Falls ihr Linux installieren wollt:
-1. Downloadet [Switchroot Ubuntu](https://download.switchroot.org/ubuntu-bionic/) (wählt dann die aktuelle `Switchroot Ubuntu.7z`) und zieht die Ordner `switchroot` und `bootloader` auf eure SD-Karte.
-
+## Falls ihr Linux oder Android installieren wollt:
+1. Ladet [Switchroot Ubuntu](https://download.switchroot.org/ubuntu-bionic/) oder [Switchroot Android](https://download.switchroot.org/android-11/) herunter (wählt dann die aktuelle `Switchroot Ubuntu.7z` oder `Switchroot Android.7z`) und zieht die Ordner `switchroot` und `bootloader` auf eure SD-Karte.
+   
 2. Geht dann in Hekate, nachdem ihr eure SD-Karte formatiert habt (wie im vorherigen Schritt), und wählt danach "Flash Linux" aus (ihr solltet noch im Formatierungsschritt sein, also das Fenster nicht geschlossen haben, sonst formatiert ihr einfach alles neu), um Linux zu installieren (euer SwitchOS wird nicht überschrieben).
 Ihr könnt auch "SD UMS" wählen, um eure SD-Karte am PC zu bearbeiten, ohne sie aus eurer Switch herauszunehmen.
 

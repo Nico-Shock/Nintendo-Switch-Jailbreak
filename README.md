@@ -14,39 +14,9 @@
 
 # SD Karten Vorbereitung
 
-## Windows:
-
-Um die SD-Karte auf `Fat32` zu formatieren, führe die folgenden Schritte aus:
-
-1. Rechtsklicke auf die SD-Karte und wähle `Formatieren`.
-2. Wähle als Dateisystem `Fat32` aus und klicke auf `Formatieren`. 
-   
-   **Hinweis:** Wenn "Fat32" nicht als Option angezeigt wird, öffne die Eingabeaufforderung (cmd) als Administrator und führe die folgenden Befehle aus:
-
-   ```sh
-   diskpart
-   list disk
-   sel disk 2   // Wähle die Nummer der SD-Karte, z.B. Disk 2
-   format fs=fat32 quick
-
-## Linux:
-
-Um die SD-Karte in Linux zu formatieren, führe diese Schritte aus:
-
-1. Öffne das Terminal und führe `lsblk` aus, um die Disk-Informationen zu erhalten.
-2. Wähle die SD-Karte aus, indem du `sudo fdisk /dev/disk1` eingibst (ersetze `disk1` durch den tatsächlichen Namen der SD-Karte)
-3. Führe diesen Befehl aus, um die Partition in FAT32 zu formatieren:
-
-   ```bash
-   sudo mkfs.vfat -F 32 /dev/disk1
-
-## MacOS:
-
-Um in MacOS die SD-Karte in FAT32 zu formatieren, führe diese Schritte aus:
-
-1. Öffne das Terminal und schreibe `diskutil list`, um die Infos für die Disk zu bekommen.
-2. Unmounte die SD-Karte zuerst mit `diskutil unmountDisk /dev/disk1` (ersetze `disk1` durch den tatsächlichen Namen der SD-Karte).
-3. Führe dann den Befehl aus, um die SD-Karte in FAT32 zu formatieren: `diskutil eraseDisk FAT32 namedersdkarte MBRFormat /dev/disk1`.
+- Stecke deine SD-Karte in deine Switch
+- Gehe auf die Systemeinstellungen und dann auf "Konsole"
+- Scrolle dann ganz nach unten zu "Formatier-Optionen" und wähle "Formatieren der SD-Karte". Bestätige mit "Formatieren"
 
 # Seriennummer prüfen
 

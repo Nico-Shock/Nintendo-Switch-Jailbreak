@@ -82,8 +82,6 @@ Ihr könnt auch "SD UMS" wählen, um eure SD-Karte am PC zu bearbeiten, ohne sie
 1. Geht oben rechts auf "Optionen" und wählt "Auto Boot" und wählt im besten Fall "Atmosphere (EmuNAND)" aus.
 2. Ihr könnt das Boot-Logo in der Option darunter auch ausschalten (um wieder ins Hekate-Menü zu kommen, haltet die Lautstärke-nach-unten-Taste gedrückt und sendet dann den Payload, bis ihr in Hekate startet).
 
-Hiermit müsst ihr dann nicht immer den RCM-Jig und das USB-C-Kabel verbinden und den Payload neu laden, wenn ihr die Switch neu startet, sondern startet immer in Hekate rein.
-
 # CFW Atmosphere Laden
 
 1. Geht in Hekate unter Home auf "Launch" und wählt "Atmosphere emuMMC" aus, um dort hinein zu booten.

@@ -20,7 +20,7 @@ Stelle sicher, dass man deine Switch jailbreaken kann. [IsMySwitchPatched](https
 
 # SD Karten Setup
 
-1. Downloade das Blue Edition RCM Pack [Blue Edition RCM Pack](https://github.com/glitched-nx/Blue_Edition_2__RCM_V1/releases).
+1. Downloade das Clean RCM Pack [Clean RCM Pack](https://github.com/Nico-Shock/Clean-RCM-Pack/releases/)
 2. Ziehe nun alle Daten auf das Startverzeichnis der SD-Karte.
 
 # RCM Modus vorbereiten und starten
@@ -46,19 +46,18 @@ Stelle sicher, dass man deine Switch jailbreaken kann. [IsMySwitchPatched](https
 5. Wählt bei `emuMMC` die Balken auf Full, damit euer System komplett darauf kopiert wird (da CFW separat vom normalen System läuft).
 6. Ihr könnt auch für Android und Linux Speicher reservieren, falls ihr das installieren möchtet.
 7. Geht dann auf `Next Step` und dann auf `Start` und bestätigt alles weitere, um fortzufahren. Die SD-Karte wird partitioniert.
-8. Geht dann nochmal auf `Create emuMMC` und dann auf `SD Partition` und wählt Part 1.
+8. Geht dann nochmal auf `Create emuMMC` und dann auf `SD Partition` und wählt Part 1 (falls ihr mehrere Parts auswählen könnt, wählt alle einmal aus. Der Vorgang kann pro Part etwa 10-15 Minuten dauern.)
 
 ## Backup der NAND
 
-1. Schließt oben rechts das Launch-Fenster, nachdem ihr das Datum eingestellt habt.
-2. Geht dann oben rechts auf Tools.
-3. Wählt dann `Backup eMMC`.
-4. Wenn ihr wollt, könnt ihr die Option anschalten mit `SD emuMMC Raw Partition` (ich lasse es hier aus).
-5. Wählt dann die Option auf der linken Seite `eMMC BOOT0 & BOOT1` und wartet, bis es fertig ist.
-6. Wählt dann darunter `eMMC RAW GPP` und wartet, bis es fertig ist (dies dauert je nach Menge der Daten auf eurem System unterschiedlich lange).
-7. Schaltet dann die Switch aus und geht mit der SD-Karte an euren PC.
-8. Kopiert alle gebackupten Daten in einen Ordner (es müssten 15 rawnand.bin-Dateien auf der SD-Karte sein und die BOOT0 und BOOT1-Dateien).
-9. Löscht dann diese Dateien von eurer SD-Karte.
+1. Geht dann oben auf Tools.
+2. Wählt dann `Backup eMMC`.
+3. Wenn ihr wollt, könnt ihr die Option anschalten mit `SD emuMMC Raw Partition` (ich lasse es hier aus).
+4. Wählt dann die Option auf der linken Seite `eMMC BOOT0 & BOOT1` und wartet, bis es fertig ist.
+5. Wählt dann darunter `eMMC RAW GPP` und wartet, bis es fertig ist (dies dauert je nach Menge der Daten auf eurem System unterschiedlich lange; Durchschnitt: 10-15 Minuten).
+6. Schaltet dann die Switch aus und geht mit der SD-Karte an euren PC.
+7. Kopiert alle gebackupten Daten in einen Ordner auf eurem PC (es müssten 15 rawnand.bin Dateien auf der SD-Karte sein (0-14) und die BOOT0 und BOOT1-Dateien).
+8. Löscht dann diese Dateien von eurer SD-Karte.
 
 ## Wiederherstellung der NAND
 
@@ -78,6 +77,11 @@ Ihr könnt auch "SD UMS" wählen, um eure SD-Karte am PC zu bearbeiten, ohne sie
 2. Geht dann ganz unten rechts auf irgendetwas mit "Arch Bit - RCM".
 3. Und wählt ganz rechts oben AutoRCM aus.
 
+## Auto Boot konfigurieren
+
+1. Geht oben rechts auf "Optionen" und wählt "Auto Boot" und wählt im besten Fall "Atmosphere (EmuNAND)" aus.
+2. Ihr könnt das Boot-Logo in der Option darunter auch ausschalten (um wieder ins Hekate-Menü zu kommen, haltet die Lautstärke-nach-unten-Taste gedrückt und sendet dann den Payload, bis ihr in Hekate startet).
+
 Hiermit müsst ihr dann nicht immer den RCM-Jig und das USB-C-Kabel verbinden und den Payload neu laden, wenn ihr die Switch neu startet, sondern startet immer in Hekate rein.
 
 # CFW Atmosphere Laden
@@ -91,13 +95,9 @@ Hiermit müsst ihr dann nicht immer den RCM-Jig und das USB-C-Kabel verbinden un
 
 # Switch Ban (möglichst) vermeiden
 
-1. Downloadet [switch90dnssetter](https://github.com/suchmememanyskill/switch-90dns-setter/releases) und [switch90dnstester](https://github.com/meganukebmp/Switch_90DNS_tester/releases).
-2. Schaltet eure Switch komplett aus und steckt eure SD-Karte in euren PC.
-3. Geht auf die SD-Karte in den `switch`-Ordner und packt dort die Dateien `switch-90dns-setter.nro` und `Switch_90DNS_tester.nro` hinein.
-4. Packt dann eure SD-Karte wieder in eure Switch und schaltet sie ein (ihr solltet in Hekate starten).
-5. Geht dann in das Album in der CFW, um Homebrew zu öffnen, und wählt "90dns setter" aus.
-6. Drückt dann "X", um die DNS-Einstellungen für jedes Internet einzustellen, und wählt "Y", um neu zu starten.
-7. Wählt dann im Homebrew-Menü "90dns testing utility" und prüft, ob die Nintendo-Services geblockt wurden.
+1. Geht dann in das Album in der CFW, um Homebrew zu öffnen, und wählt "90dns setter" aus.
+2. Drückt dann "X", um die DNS-Einstellungen für jedes Internet einzustellen, und wählt "Y", um neu zu starten.
+3. Wählt dann im Homebrew-Menü "90dns testing utility" und prüft, ob die Nintendo-Services geblockt wurden.
 
 # **WICHTIG!!!**
 

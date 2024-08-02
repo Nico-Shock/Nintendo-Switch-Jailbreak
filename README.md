@@ -46,14 +46,14 @@ Stelle sicher, dass man deine Switch jailbreaken kann. [IsMySwitchPatched](https
 
 # SD Karten Setup
 
-1. Downloade das Clean RCM Pack [Clean RCM Pack](https://github.com/Nico-Shock/Clean-RCM-Pack/releases/)
-2. Ziehe nun alle Daten auf das Startverzeichnis der SD-Karte.
+1. Schalte die Switch aus, indem du 3 Sekunden lang den Power-Knopf gedrückt hältst und unter Power Optionen "Ausschalten" wählst.
+2. Downloade das Clean RCM Pack [Clean RCM Pack](https://github.com/Nico-Shock/Clean-RCM-Pack/releases/)
+3. Ziehe nun alle Daten auf das Startverzeichnis der SD-Karte.
 
 # RCM Modus vorbereiten und starten
 
-   1. Schalte die Switch aus, indem du 3 Sekunden lang den Power-Knopf gedrückt hältst und unter Power Optionen "Ausschalten" wählst.
-   2. Schiebe den RCM Jig in den rechten Joy-Con-Slot rein, bis er richtig sitzt.
-   3. Halte die Lauter-Taste und den Power-Knopf gedrückt, um den RCM-Modus zu aktivieren (halte erst die Lautstärke-Taste und dann die Power-Taste gedrückt).
+   1. Schiebe den RCM Jig in den rechten Joy-Con-Slot rein, bis er richtig sitzt.
+   2. Halte die Lauter-Taste und den Power-Knopf gedrückt, um den RCM-Modus zu aktivieren (halte erst die Lautstärke-Taste und dann die Power-Taste gedrückt).
 
 # Payload einfügen
 

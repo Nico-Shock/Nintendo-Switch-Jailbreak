@@ -57,9 +57,12 @@ Stelle sicher, dass man deine Switch jailbreaken kann. [IsMySwitchPatched](https
 
 # Payload einfügen
 
-   1. Lade TegraRcmGUI herunter von [TegraRcmGUI](https://github.com/eliboa/TegraRcmGUI/releases).
-   2. Verbinde die Switch im RCM-Modus mit deinem PC über das USB-C-Kabel.
-   3. Öffne TegraRcmGUI und wähle die Hekate Payload-Datei (es sollte eine ".bin" Datei sein).
+1. Lade TegraRcmGUI herunter von [TegraRcmGUI](https://github.com/eliboa/TegraRcmGUI/releases).
+2. Verbinde die Switch im RCM-Modus mit deinem PC über das USB-C-Kabel.
+3. Gehe unter "Tools" auf "Install Driver", um die APX-Treiber zu installieren, damit dein PC die Switch erkennen kann. (Es sollte ein grünes Feld erscheinen mit "RCM OK", was bedeutet, dass die Switch erfolgreich im RCM-Modus ist und von deinem PC erkannt wurde.)
+4. Öffne TegraRcmGUI und mache ein doppelklick die Datei "hekate_ctcaer_5.0.0.bin" (oder wählt sie manuell aus und wählt "Inject Payload")
+
+Ihr könnt unter "Tools" auch "Auto Boot at startup", "Minimize to Tray" und "Auto Inject Payload" aktivieren, damit der Payload automatisch gesendet wird, sobald ihr eure Switch mit dem USB-C Kabel verbindet.
 
 # Hekate konfigurieren
 

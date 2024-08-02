@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nintendo Switch Jailbreak Tutorial</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Nintendo Switch Jailbreak Tutorial</h1>
+
+    <h2>Was Du brauchst</h2>
+    <ul>
+        <li>Nintendo Switch V1</li>
+        <li>microSD-Karte (mindestens 64GB wird empfohlen)</li>
+        <li>RCM Jig</li>
+        <li>USB-C-Kabel</li>
+        <li>PC/Laptop (oder ähnliches um Daten auf einer SD Karte zu bearbeiten)</li>
+    </ul>
+    <img src="Bilder/Benötigte%20Items.jpg" alt="Benötigte Gegenstände" width="500"/>
+
+    <h2>SD Karten Vorbereitung</h2>
+    <p><strong>Wichtig:</strong> Man sollte nur Fat32 auf einer maximalen Partition von 64 GB nutzen, da man sonst nicht mehr Daten darauf schreiben kann. Nutzt ansonsten exFAT, das ihr mit einem Rechtsklick unter Windows auf "Formatieren" formatieren könnt. Unter macOS und Linux wählt einfach nur exFAT als Dateisystem bei den folgenden Schritten hier drunter aus.</p>
+
+    <h3>Windows</h3>
+    <ol>
+        <li>Ladet euch <a href="http://ridgecrop.co.uk/index.htm?guiformat.htm">Fat32 Format</a> herunter.</li>
+        <li>Startet die "guiformat.exe".</li>
+        <li>Wählt eure SD-Karte aus (z.B. "D:").</li>
+        <li>Falls eure SD-Karte 32 GB oder mehr hat, wählt "32768" bei "allocated unit size" aus, damit der 3DS die SD-Karte erkennen kann.</li>
+    </ol>
+
+    <h3>MacOS</h3>
+    <ol>
+        <li>Startet das "Festplattendienstprogramm".</li>
+        <li>Rechtsklickt auf die SD-Karte und wählt dann "Löschen" aus. Formatiert sie als Fat32 (es wird eventuell als "MS-DOS-Dateisystem" angezeigt).</li>
+        <li>Wählt anschließend "Löschen".</li>
+    </ol>
+
+    <h3>Linux</h3>
+    <ol>
+        <li>Öffnet die "Disk" App.</li>
+        <li>Wählt die Festplatte aus, klickt dann auf das Zahnradsymbol oder macht einen Rechtsklick und wählt "Formatieren".</li>
+        <li>Wählt beim Typ "Fat32" aus.</li>
+    </ol>
+
+    <h2>Seriennummer prüfen</h2>
+    <p>Stelle sicher, dass man deine Switch jailbreaken kann. <a href="https://ismyswitchpatched.com/">IsMySwitchPatched</a>.</p>
+    <ul>
+        <li>Ihr könnt eure Seriennummer unter eurer Switch auf einem Zettel sehen, den ihr eingeben könnt.</li>
+        <li>Falls ihr die Seriennummer dort nicht habt, geht auf System-Einstellungen, dann auf "Konsole" und dann auf "Seriennummer", und könnt sie dort sehen.</li>
+    </ul>
+
+    <h2>SD Karten Setup</h2>
+    <ol>
+        <li>Schalte die Switch aus, indem du 3 Sekunden lang den Power-Knopf gedrückt hältst und unter Power Optionen "Ausschalten" wählst.</li>
+        <li>Downloade das Clean RCM Pack <a href="https://github.com/Nico-Shock/Clean-RCM-Pack/releases/">Clean RCM Pack</a></li>
+        <li>Ziehe nun alle Daten auf das Startverzeichnis der SD-Karte.</li>
+    </ol>
+    <img src="Bilder/SD%20Karte%20Dateien.png" alt="SD Karte Dateien" width="500"/>
+
+    <h2>RCM Modus vorbereiten und starten</h2>
+    <ol>
+        <li>Schiebe den RCM Jig in den rechten Joy-Con-Slot rein, bis er richtig sitzt.</li>
+        <li>Halte die Lauter-Taste und den Power-Knopf gedrückt, um den RCM-Modus zu aktivieren (halte erst die Lautstärke-Taste und dann die Power-Taste gedrückt).</li>
+    </ol>
+    <img src="Bilder/RCM%20jig%20%2B%20USB.jpg" alt="RCM jig + USB" width="500"/>
+
+    <h2>Payload einfügen</h2>
+    <ol>
+        <li>Lade TegraRcmGUI herunter von <a href="https://github.com/eliboa/TegraRcmGUI/releases">TegraRcmGUI</a>.</li>
+        <li>Verbinde die Switch im RCM-Modus mit deinem PC über das USB-C-Kabel.</li>
+        <li>Gehe unter "Tools" auf "Install Driver", um die APX-Treiber zu installieren.</li>
+        <li>Öffne TegraRcmGUI und mache ein Doppelklick auf die Datei "hekate_ctcaer_5.0.0.bin" (oder wählt sie manuell aus und wählt "Inject Payload").</li>
+    </ol>
+    <img src="Bilder/TegraSettings.png" alt="TegraSettings" width="500"/>
+
+    <img src="Bilder/Hekate%20Boot.jpg" alt="Hekate Boot" width="500"/>
+
+    <h2>Hekate konfigurieren</h2>
+    <h3>SD-Karte partitionieren und emuMMC erstellen</h3>
+    <ol>
+        <li>Wählt in Hekate <code>Tools</code> aus.</li>
+        <li>Wählt dann <code>Partition SD</code>.</li>
+        <li>Wählt bei <code>emuMMC</code> die Balken auf "29 Full", damit euer System komplett auf eine neue, separate Partition kopiert wird.</li>
+        <li>Geht dann auf <code>Next Step</code> und dann auf <code>Start</code> und bestätigt alles weitere, um fortzufahren. Die SD-Karte wird partitioniert.</li>
+        <li>Geht dann nochmal auf <code>Create emuMMC</code> und dann auf <code>SD Partition</code> und wählt Part 1.</li>
+    </ol>
+
+    <h3>Backup der NAND</h3>
+    <ol>
+        <li>Geht dann oben auf Tools.</li>
+        <li>Wählt dann <code>Backup eMMC</code>.</li>
+        <li>Wählt dann die Option auf der linken Seite <code>eMMC BOOT0 & BOOT1</code> und wartet, bis es fertig ist.</li>
+        <li>Wählt dann darunter <code>eMMC RAW GPP</code> und wartet, bis es fertig ist.</li>
+        <li>Schaltet dann die Switch aus und geht mit der SD-Karte an euren PC.</li>
+        <li>Kopiert alle gebackupten Daten in einen Ordner auf eurem PC.</li>
+        <li>Löscht dann diese Dateien von eurer SD-Karte.</li>
+    </ol>
+
+    <h3>Wiederherstellung der NAND</h3>
+    <ol>
+        <li>Kopiert die gebackupten Dateien und packt sie in <code>restore</code> dann <code>emummc</code> auf der SD-Karte.</li>
+        <li>Wenn ihr dann in Hekate seid, könnt ihr unter Tools "Restore eMMC" wählen.</li>
+        <li>Wählt dann <code>eMMC BOOT0 & BOOT1</code> und <code>eMMC RAW GPP</code> aus, um die Wiederherstellung durchzuführen.</li>
+    </ol>
+
+    <h3>Falls ihr Linux oder Android installieren wollt:</h3>
+    <ol>
+        <li>Ladet <a href="https://download.switchroot.org/ubuntu-bionic/">Switchroot Ubuntu</a> oder <a href="https://download.switchroot.org/android-11/">Switchroot Android</a> herunter und kopiert die Ordner <code>switchroot</code> und <code>bootloader</code> auf eure SD-Karte.</li>
+        <li>Geht dann in Hekate, unter "Tools" auf "Partition SD" und wählt anschließend "Flash Linux" oder "Flash Android" aus.</li>
+    </ol>
+
+    <h3>Immer im RCM-Modus starten</h3>
+    <ol>
+        <li>In Hekate geht wieder auf Tools.</li>
+        <li>Geht dann ganz unten rechts auf irgendetwas mit "Arch Bit - RCM".</li>
+        <li>Und wählt ganz rechts oben AutoRCM aus.</li>
+    </ol>
+
+    <h3>Auto Boot konfigurieren</h3>
+    <ol>
+        <li>Geht oben rechts auf "Optionen" und wählt "Auto Boot" und wählt im besten Fall "Atmosphere (EmuNAND)" aus.</li>
+        <li>Ihr könnt das Boot-Logo in der Option darunter auch ausschalten.</li>
+    </ol>
+
+    <h2>CFW Atmosphere Laden</h2>
+    <ol>
+        <li>Geht in Hekate unter Home auf "Launch" und wählt "Atmosphere (EmuNAND)" aus, um dort rein zu booten.</li>
+    </ol>
+
+    <h2>Homebrew laden</h2>
+    <ul>
+        <li>Du kannst Homebrew über das Album starten oder R gedrückt halten und ein legitimes Spiel starten, um Homebrew mit Admin-Rechten zu starten und darüber eine App öffnen.</li>
+        <li>Du kannst über den Homebrew-Appstore auch neue Apps herunterladen und nutzen.</li>
+    </ul>
+
+    <h2>Switch Ban vermeiden</h2>
+    <ol>
+        <li>Geht dann in das Album in der CFW, um Homebrew zu öffnen, und wählt "90dns setter" aus.</li>
+        <li>Drückt dann "X", um die DNS-Einstellungen für jedes Internet einzustellen, und wählt "Y", um neu zu starten.</li>
+        <li>Wählt dann im Homebrew-Menü "90dns testing utility" und prüft, ob die Nintendo-Services geblockt wurden.</li>
+        <li>Ihr könnt auch unter den Systemeinstellungen auf "Konsole" gehen und die Option "Fehlerinformationen senden" ausschalten.</li>
+    </ol>
+
+    <h2>WICHTIG!!!</h2>
+    <p><strong>SPIELT NICHT ONLINE, LADET KEINE UPDATES HERUNTER UND INTERAGIERT GENERELL NICHT MIT DEN NINTENDO SERVERN WIE NINTENDO E-SHOP ODER NINTENDO SWITCH ONLINE, SONST WERDET IHR ONLINE GEBANNT ODER EURE KONSOLE WIRD KOMPLETT GEBANNT.</strong></p>
+    <p><strong>BITTE LADET EUCH KEINE ROMS ONLINE RUNTER UND VERSTÖßT NICHT GEGEN PIRATERIE (Piracy) UND ERWIRBT DIE SPIELE ALLE LEGAL SELBST, INDEM IHR SIE EUCH KAUFT. ALLE SPIELE, DIE ICH SPIELE, BESITZE ICH SELBST UND HABE SIE MIR LEGAL ERWORBEN.</strong></p>
+</body>
+</html>

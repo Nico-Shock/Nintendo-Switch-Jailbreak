@@ -144,7 +144,7 @@ https://github.com/user-attachments/assets/13d5aca0-f560-4f9b-9a5c-bb18d6ac723d
 
 # Homebrew laden
 
-   - Du kannst Homebrew über das Album starten oder R gedrückt halten und ein legitimes Spiel starten, um Homebrew mit Admin Rechten zu starten und darüber Homebrew App öffnen.
+   - Du kannst das Homebrew Menü über das Album starten oder R gedrückt halten und ein legitimes Spiel starten, um Homebrew mit Admin Rechten zu starten und darüber deine Insterllierten Apps starten.
    - Du kannst über den Homebrew Appstore auch neue Apps herunterladen und insterllieren.
 
 # Switch Ban vermeiden

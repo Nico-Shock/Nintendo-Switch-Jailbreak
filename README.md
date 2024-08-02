@@ -101,12 +101,12 @@ Ihr könnt auch "SD UMS" wählen, um eure SD-Karte am PC zu bearbeiten, ohne sie
 
 1. In Hekate geht wieder auf Tools.
 2. Geht dann ganz unten rechts auf irgendetwas mit "Arch Bit - RCM".
-3. Und wählt ganz rechts oben AutoRCM aus.
+3. Und wählt ganz rechts oben AutoRCM aus. (Auto RCM wird nicht empfohlen, da ihr eure Switch nach dem Ausschalten NUR durch das Laden eines Custom Payloads wieder starten könnt.)
 
 ## Auto Boot konfigurieren
 
 1. Geht oben rechts auf "Optionen" und wählt "Auto Boot" und wählt im besten Fall "Atmosphere (EmuNAND)" aus.
-2. Ihr könnt das Boot-Logo in der Option darunter auch ausschalten (um wieder ins Hekate-Menü zu kommen, haltet die Lautstärke-nach-unten-Taste gedrückt und sendet dann den Payload, bis ihr in Hekate startet).
+2. Ihr könnt das Boot-Logo in der Option darunter auch ausschalten (um wieder ins Hekate-Menü zu kommen, haltet die Lautstärke nach unten Taste gedrückt und sendet dann den Payload, bis ihr in Hekate startet).
 
 # CFW Atmosphere Laden
 

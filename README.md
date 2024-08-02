@@ -10,6 +10,8 @@
 
 # SD Karten Vorbereitung
 
+*Wichtig: Man sollte nur Fat32 auf einer maximalen Partition von 64 GB nutzen, da man sonst nicht mehr Daten darauf schreiben kann.*
+
 ## Windows
 
 1. Ladet euch [Fat32 Format](http://ridgecrop.co.uk/index.htm?guiformat.htm) herunter.

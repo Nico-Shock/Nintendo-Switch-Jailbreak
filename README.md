@@ -80,10 +80,15 @@ Ihr könnt unter "Tools" auch "Auto Boot at startup", "Minimize to Tray" und "Au
 
 1. Wählt in Hekate `Tools` aus.
 2. Wählt dann `Partition SD`
-4. Wählt bei `emuMMC` die Balken auf "29 Full", Damit euer System komplett auf eine neue, separate Partition kopiert wird. (Man lässt es separat laufen, da es stabiler läuft und eine extreme Sicherheit bietet, da man seine "Main" Switch nicht direkt brickt. Zudem ist es sicherer, online zu spielen, wenn man im "Stock Mode" bootet.)
-5. Ihr könnt auch für Android und Linux eine Partition erstellen, falls ihr das installieren möchtet.
-6. Geht dann auf `Next Step` und dann auf `Start` und bestätigt alles weitere, um fortzufahren. Die SD-Karte wird partitioniert.
-7. Geht dann nochmal auf `Create emuMMC` und dann auf `SD Partition` und wählt Part 1 (falls ihr mehrere Parts auswählen könnt, wählt alle einmal aus. Der Vorgang kann pro Part etwa 10-15 Minuten dauern.)
+3. Wählt bei `emuMMC` die Balken auf "29 Full", Damit euer System komplett auf eine neue, separate Partition kopiert wird. (Man lässt es separat laufen, da es stabiler läuft und eine extreme Sicherheit bietet, da man seine "Main" Switch nicht direkt brickt. Zudem ist es sicherer, online zu spielen, wenn man im "Stock Mode" bootet.)
+4. Ihr könnt auch für Android und Linux eine Partition erstellen, falls ihr das installieren möchtet.
+5. Geht dann auf `Next Step` und dann auf `Start` und bestätigt alles weitere, um fortzufahren. Die SD-Karte wird partitioniert.
+6. Geht dann nochmal auf `Create emuMMC` und dann auf `SD Partition` und wählt Part 1 (falls ihr mehrere Parts auswählen könnt, wählt alle einmal aus. Der Vorgang kann pro Part etwa 10-15 Minuten dauern.)
+
+<video width="500" controls>
+  <source src="https://github.com/Nico-Shock/Nintendo-Switch-Jailbreak/blob/main/Videos/Sd%20Karte%20Partitionieren%20E.mp4?raw=true" type="video/mp4">
+  Ihr Browser unterstützt das Video-Tag nicht.
+</video>
 
 ## Backup der NAND
 

@@ -116,7 +116,7 @@ https://github.com/user-attachments/assets/519954b8-f653-460f-8a7c-23a3ad105ab2
 
 1. Kopiert die gebackupten Dateien und packt sie in `restore` dann `emummc` auf der SD-Karte.
 2. Wenn ihr dann in Hekate seid, könnt ihr unter Tools "Restore eMMC" wählen.
-3. Wählt dann `eMMC BOOT0 & BOOT1` und `eMMC RAW GPP` aus, um die Wiederherstellung durchzuführen.
+3. Wählt dann `eMMC BOOT0 & BOOT1` und `eMMC RAW GPP` aus, um NAND wiederherzustellen.
 
 ## Falls ihr Linux oder Android installieren wollt:
 

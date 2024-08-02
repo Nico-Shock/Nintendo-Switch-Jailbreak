@@ -78,7 +78,7 @@ Stelle sicher, dass man deine Switch jailbreaken kann. [IsMySwitchPatched](https
 
 Ihr könnt unter "Tools" auch "Auto Boot at startup", "Minimize to Tray" und "Auto Inject Payload" aktivieren, damit der Payload automatisch gesendet wird, sobald ihr eure Switch mit dem USB-C Kabel verbindet.
 
-5. Öffne TegraRcmGUI und mache ein doppelklick die Datei "hekate_ctcaer_5.0.0.bin" (oder wählt sie manuell aus und wählt "Inject Payload") Eure Switch sollte nun in so einem Screen Booten.
+5. Öffne TegraRcmGUI und mache ein doppelklick die Datei "hekate_ctcaer_5.0.0.bin" (oder wählt sie manuell aus und wählt "Inject Payload") Eure Switch sollte nun in Hekate Booten.
 
 ![Hekate Boot](https://github.com/user-attachments/assets/9d6224e7-9919-43d9-aa2b-7b692702088c)
 

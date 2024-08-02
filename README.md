@@ -102,6 +102,10 @@ https://github.com/user-attachments/assets/8f381c94-6d2b-4a11-b05e-087c4c25cbe0
 7. Kopiert alle gebackupten Daten in einen Ordner auf eurem PC (es müssten 15 rawnand.bin Dateien auf der SD-Karte sein (0-14) und die BOOT0 und BOOT1-Dateien).
 8. Löscht dann diese Dateien von eurer SD-Karte.
 
+
+https://github.com/user-attachments/assets/519954b8-f653-460f-8a7c-23a3ad105ab2
+
+
 ## Wiederherstellung der NAND
 
 1. Kopiert die gebackupten Dateien und packt sie in `restore` dann `emummc` auf der SD-Karte.
@@ -126,6 +130,10 @@ Falls ihr die Partitionen noch nicht habt, sichert die Daten eurer SD-Karte und 
 1. Geht oben rechts auf "Optionen" und wählt "Auto Boot" und wählt im besten Fall "Atmosphere (EmuNAND)" aus.
 2. Ihr könnt das Boot-Logo in der Option darunter auch ausschalten (um wieder ins Hekate-Menü zu kommen, haltet die Lautstärke nach unten Taste gedrückt und sendet dann den Payload, bis ihr in Hekate startet).
 
+
+https://github.com/user-attachments/assets/13d5aca0-f560-4f9b-9a5c-bb18d6ac723d
+
+
 # CFW Atmosphere Laden
 
 1. Geht in Hekate unter Home auf "Launch" und wählt "Atmosphere (EmuNAND)" aus, um dort rein zu booten.
@@ -141,6 +149,10 @@ Falls ihr die Partitionen noch nicht habt, sichert die Daten eurer SD-Karte und 
 2. Drückt dann "X", um die DNS-Einstellungen für jedes Internet einzustellen, und wählt "Y", um neu zu starten.
 3. Wählt dann im Homebrew-Menü "90dns testing utility" und prüft, ob die Nintendo-Services geblockt wurden.
 4. Ihr könnt auch unter den Systemeinstellungen auf "Konsole" gehen und die Option "Fehlerinformationen senden" ausschalten (im besten Fall auch im SysNand oder im Stock-Modus).
+
+
+https://github.com/user-attachments/assets/f7966fc4-e599-4ec1-8789-d0bbb2a133b3
+
 
 # **WICHTIG!!!**
 

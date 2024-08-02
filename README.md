@@ -128,7 +128,7 @@ Falls ihr die Partitionen noch nicht habt, sichert die Daten eurer SD Karte und 
 ## Immer im RCM Modus starten
 
 1. In Hekate geht wieder auf Tools.
-2. Geht dann ganz unten rechts auf die zweite mit "Arch Bit - RCM - Touch - Pkg1/2".
+2. Geht dann ganz unten rechts auf die zweite Seite mit "Arch Bit - RCM - Touch - Pkg1/2".
 3. Und wählt ganz rechts oben AutoRCM aus. (Auto RCM wird nicht empfohlen, da ihr eure Switch nach dem Ausschalten NUR durch das Laden eines Custom Payloads wieder starten könnt.)
 
 ## Auto Boot konfigurieren

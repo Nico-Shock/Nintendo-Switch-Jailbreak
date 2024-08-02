@@ -86,7 +86,7 @@ Ihr könnt unter "Tools" auch "Auto Boot at startup", "Minimize to Tray" und "Au
 7. Geht dann nochmal auf `Create emuMMC` und dann auf `SD Partition` und wählt Part 1 (falls ihr mehrere Parts auswählen könnt, wählt alle einmal aus. Der Vorgang kann pro Part etwa 10-15 Minuten dauern.)
 
 <video width="500" controls>
-  <source src="Videos/Sd%20Karte%20Partitionieren.mp4" type="video/mp4">
+  <source src="Videos/Sd%20Karte%20Partitionieren.mp4"
   Ihr Browser unterstützt das Video-Tag nicht.
 </video>
 

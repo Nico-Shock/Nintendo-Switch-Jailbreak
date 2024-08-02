@@ -87,6 +87,10 @@ Ihr könnt unter "Tools" auch "Auto Boot at startup", "Minimize to Tray" und "Au
 
 https://github.com/user-attachments/assets/321794e3-a51c-4480-b8a7-c803a664ec6d
 
+
+https://github.com/user-attachments/assets/8f381c94-6d2b-4a11-b05e-087c4c25cbe0
+
+
 ## Backup der NAND
 
 1. Geht dann oben auf Tools.

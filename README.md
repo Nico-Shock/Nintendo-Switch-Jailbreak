@@ -8,6 +8,8 @@
 - USB-C-Kabel
 - PC/Laptop (oder ähnliches um Daten auf einer SD Karte zu bearbeiten)
 
+![Benötigte Items](Bilder/Benötigte%20Items.jpg)
+
 # SD Karten Vorbereitung
 
 *Wichtig: Man sollte nur Fat32 auf einer maximalen Partition von 64 GB nutzen, da man sonst nicht mehr Daten darauf schreiben kann. Nutzt ansonsten exFAT, das ihr mit einem Rechtsklick unter Windows auf "Formatieren" formatieren könnt. Unter macOS und Linux wählt einfach nur exFAT als Dateisystem bei den folgenden Schritten hier drunter aus.*

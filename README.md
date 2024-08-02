@@ -36,13 +36,13 @@
 Stelle sicher, dass man deine Switch jailbreaken kann. [IsMySwitchPatched](https://ismyswitchpatched.com/).
 
 - Ihr könnt eure Seriennummer unter eurer Switch auf einem Zettel sehen, den ihr eingeben könnt.
-  Falls ihr die Seriennummer dort nicht habt, geht auf System-Einstellungen, dann auf „Konsole“ und dann auf „Seriennummer“, und könnt sie dort sehen.
+  Falls ihr die Seriennummer dort nicht habt, geht auf System-Einstellungen, dann auf "Konsole" und dann auf "Seriennummer", und könnt sie dort sehen.
 
-- Unpatched Switch bedeutet, dass ihr eure Switch zu 100% hacken könnt mit dieser Methode. Falls es später nicht funktioniert, habt ihr etwas falsch gemacht bis zu dem Schritt, wo man den Payload einfügt.
+- Unpatched Switch bedeutet, dass ihr eure Switch zu 100% hacken könnt mit dieser Methode. Falls es später nicht funktioniert, habt IHR etwas falsch gemacht.
 
-- Falls ihr eine Possible Patched Switch habt, könnte der Payload funktionieren, könnte aber auch nicht. Man kann es daran erkennen, dass man in TegraRCM das Fenster „RCM OK“ hat und wenn man den Payload einfügt, dass nichts an der Switch passiert.
-
-- Falls ihr eine Patched Switch habt, wird es zu 100% nicht funktionieren. Ihr benötigt ansonsten einen Modchip, den ihr in die Switch verlötet, was erweitertes Wissen und Risiko mit sich bringt. Wenn ihr einen Modchip installiert, benötigt ihr nur eine SD-Karte mit den Daten vom „Clean RCM Pack“. Aber nur Switch V1 werden funktionieren, also unpatched Switches. Für andere Modelle benötigt ihr andere Daten.
+- Falls ihr eine Possible Patched Switch habt, könnte der Payload funktionieren, könnte aber auch nicht. Man kann es daran erkennen, dass man in TegraRCM das Fenster „RCM OK“ hat und wenn man den Payload einfügt, dass die Switch Schwarz bleibt.
+  
+- Falls ihr eine Patched Switch habt, wird es zu 100% NICHT funktionieren. Ihr benötigt aufjedenfall einen Modchip, den ihr in die Switch verlötet, was erweitertes Wissen und Risiko mit sich bringt. Wenn ihr einen Modchip installiert, benötigt ihr nur eine SD-Karte mit den Daten vom „Clean RCM Pack“. Aber nur Switch V1 werden funktionieren mit den Daten, also unpatched Switches. Für andere Modelle (Switch V2, OLED oder LITE) benötigt ihr andere Daten.
 
 # SD Karten Setup
 

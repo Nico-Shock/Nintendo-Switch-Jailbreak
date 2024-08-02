@@ -85,11 +85,6 @@ Ihr könnt unter "Tools" auch "Auto Boot at startup", "Minimize to Tray" und "Au
 6. Geht dann auf `Next Step` und dann auf `Start` und bestätigt alles weitere, um fortzufahren. Die SD-Karte wird partitioniert.
 7. Geht dann nochmal auf `Create emuMMC` und dann auf `SD Partition` und wählt Part 1 (falls ihr mehrere Parts auswählen könnt, wählt alle einmal aus. Der Vorgang kann pro Part etwa 10-15 Minuten dauern.)
 
-<video width="500" controls>
-  <source src="https://mega.nz/file/4PkjmAoC#zhu1oDyo-IKa_ix0mm_wPSR9-ogRwd1bjaSBiuDMYm4" type="video/mp4">
-  Ihr Browser unterstützt das Video-Tag nicht.
-</video>
-
 ## Backup der NAND
 
 1. Geht dann oben auf Tools.

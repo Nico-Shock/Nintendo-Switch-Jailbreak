@@ -103,7 +103,7 @@ https://github.com/user-attachments/assets/8f381c94-6d2b-4a11-b05e-087c4c25cbe0
 2. Wählt dann `Backup eMMC`.
 3. Wenn ihr wollt, könnt ihr die Option anschalten mit `SD emuMMC Raw Partition` (ich lasse es hier aus).
 4. Wählt dann die Option auf der linken Seite `eMMC BOOT0 & BOOT1` und wartet, bis es fertig ist.
-5. Wählt dann darunter `eMMC RAW GPP` und wartet, bis es fertig ist (dies dauert je nach Menge der Daten auf eurem System unterschiedlich lange; Durchschnitt: 10-15 Minuten).
+5. Wählt dann darunter `eMMC RAW GPP` und wartet, bis es fertig ist (dieser Vorgang dauert durchschnittlich 10-15 Minuten, je nach der Menge an Daten auf eurer Switch.)
 6. Schaltet dann die Switch aus und geht mit der SD Karte an euren PC.
 7. Kopiert alle gebackupten Daten in einen Ordner auf eurem PC (es müssten 15 rawnand.bin Dateien auf der SD Karte sein (0-14) und die BOOT0 und BOOT1.bin-Dateien).
 8. Löscht dann diese Dateien von eurer SD Karte.
@@ -144,7 +144,7 @@ https://github.com/user-attachments/assets/13d5aca0-f560-4f9b-9a5c-bb18d6ac723d
 
 # Homebrew laden
 
-   - Du kannst Homebrew über das Album starten oder R gedrückt halten und ein legitimes Spiel starten, um Homebrew mit Admin Rechten zu starten und darüber eine App öffnen.
+   - Du kannst Homebrew über das Album starten oder R gedrückt halten und ein legitimes Spiel starten, um Homebrew mit Admin Rechten zu starten und darüber Homebrew App öffnen.
    - Du kannst über den Homebrew Appstore auch neue Apps herunterladen und insterllieren.
 
 # Switch Ban vermeiden

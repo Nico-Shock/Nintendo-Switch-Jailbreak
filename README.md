@@ -10,9 +10,24 @@
 
 # SD Karten Vorbereitung
 
-- Stecke deine SD-Karte in deine Switch
-- Gehe auf die Systemeinstellungen und dann auf "Konsole"
-- Scrolle dann ganz nach unten zu "Formatier-Optionen" und wähle "Formatieren der SD-Karte". Bestätige mit "Formatieren"
+## Windows
+
+1. Ladet euch [Fat32 Format](http://ridgecrop.co.uk/index.htm?guiformat.htm) herunter.
+2. Startet die "guiformat.exe".
+3. Wählt eure SD-Karte aus (z.B. "D:").
+4. Falls eure SD-Karte 32 GB oder mehr hat, wählt "32768" bei "allocated unit size" aus, damit der 3DS die SD-Karte erkennen kann. (Manche SD-Karten, insbesondere ältere, könnten trotzdem nicht erkannt werden, wenn sie größer als 32 GB sind.)
+
+## MacOS
+
+1. Startet das "Festplattendienstprogramm".
+2. Rechtsklickt auf die SD-Karte und wählt dann "Löschen" aus. Formatiert sie als Fat32 (es wird eventuell als "MS-DOS-Dateisystem" angezeigt).
+3. Wählt anschließend "Löschen".
+
+## Linux
+
+1. Öffnet die "Disk" App.
+2. Wählt die Festplatte aus, klickt dann auf das Zahnradsymbol oder macht einen Rechtsklick und wählt "Formatieren".
+3. Wählt beim Typ "Fat32" aus (eventuell müsst ihr unter "Other" oder "Weitere" nach Fat32 suchen).
 
 # Seriennummer prüfen
 

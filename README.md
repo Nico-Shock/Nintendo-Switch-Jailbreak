@@ -5,10 +5,12 @@
 - Nintendo Switch V1
 - microSD-Karte (mindestens 64GB wird empfohlen)
 - RCM Jig
-- USB-C-Kabel
+- USB-C-Kabel 
 - PC/Laptop (oder ähnliches um Daten auf einer SD Karte zu bearbeiten)
 
 ![Benötigte Items](Bilder/Benötigte%20Items.jpg)
+<img src="Bilder/Benötigte%20Items.jpg" alt="Bild" width="300"/>
+
 
 # SD Karten Vorbereitung
 

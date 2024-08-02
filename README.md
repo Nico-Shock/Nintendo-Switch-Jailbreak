@@ -114,7 +114,7 @@ Falls ihr die Partitionen noch nicht habt, sichert die Daten eurer SD-Karte und 
 
 # CFW Atmosphere Laden
 
-1. Geht in Hekate unter Home auf "Launch" und wählt "Atmosphere emuMMC" aus, um dort hinein zu booten.
+1. Geht in Hekate unter Home auf "Launch" und wählt "Atmosphere (EmuNAND)" aus, um dort rein zu booten.
 
 # Homebrew laden
 

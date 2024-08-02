@@ -121,11 +121,12 @@ Falls ihr die Partitionen noch nicht habt, sichert die Daten eurer SD-Karte und 
    - Du kannst Homebrew über das Album starten oder R gedrückt halten und ein legitimes Spiel starten, um Homebrew mit Admin-Rechten zu starten und darüber eine App öffnen.
    - Du kannst über den Homebrew-Appstore auch neue Apps herunterladen und nutzen.
 
-# Switch Ban (möglichst) vermeiden
+# Switch Ban vermeiden
 
 1. Geht dann in das Album in der CFW, um Homebrew zu öffnen, und wählt "90dns setter" aus.
 2. Drückt dann "X", um die DNS-Einstellungen für jedes Internet einzustellen, und wählt "Y", um neu zu starten.
 3. Wählt dann im Homebrew-Menü "90dns testing utility" und prüft, ob die Nintendo-Services geblockt wurden.
+4. Ihr könnt auch unter den Systemeinstellungen auf "Konsole" gehen und die Option "Fehlerinformationen senden" ausschalten (im besten Fall auch im SysNand oder im Stock-Modus).
 
 # **WICHTIG!!!**
 

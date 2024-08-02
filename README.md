@@ -59,6 +59,8 @@ Stelle sicher, dass man deine Switch jailbreaken kann. [IsMySwitchPatched](https
    1. Schiebe den RCM Jig in den rechten Joy-Con-Slot rein, bis er richtig sitzt.
    2. Halte die Lauter-Taste und den Power-Knopf gedrückt, um den RCM-Modus zu aktivieren (halte erst die Lautstärke-Taste und dann die Power-Taste gedrückt).
 
+<img src="Bilder/RCM%20jig%20%2B%20USB.jpg" alt="RCM jig + USB" width="500"/>
+
 # Payload einfügen
 
 1. Lade TegraRcmGUI herunter von [TegraRcmGUI](https://github.com/eliboa/TegraRcmGUI/releases).

@@ -19,7 +19,6 @@
 1. Ladet euch [Fat32 Format](http://ridgecrop.co.uk/index.htm?guiformat.htm) herunter.
 2. Startet die "guiformat.exe".
 3. Wählt eure SD-Karte aus (z.B. "D:").
-4. Falls eure SD-Karte 32 GB oder mehr hat, wählt "32768" bei "allocated unit size" aus, damit der 3DS die SD-Karte erkennen kann. (Manche SD-Karten, insbesondere ältere, könnten trotzdem nicht erkannt werden, wenn sie größer als 32 GB sind.)
 
 ## MacOS
 

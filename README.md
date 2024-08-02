@@ -95,10 +95,11 @@ Ihr könnt unter "Tools" auch "Auto Boot at startup", "Minimize to Tray" und "Au
 3. Wählt dann `eMMC BOOT0 & BOOT1` und `eMMC RAW GPP` aus, um die Wiederherstellung durchzuführen.
 
 ## Falls ihr Linux oder Android installieren wollt:
-1. Ladet [Switchroot Ubuntu](https://download.switchroot.org/ubuntu-bionic/) oder [Switchroot Android](https://download.switchroot.org/android-11/) herunter (wählt dann die aktuelle `Switchroot Ubuntu.7z` oder `Switchroot Android.7z`) und zieht die Ordner `switchroot` und `bootloader` auf eure SD-Karte.
-   
-2. Geht dann in Hekate, nachdem ihr eure SD-Karte formatiert habt (wie im vorherigen Schritt), und wählt danach "Flash Linux" aus (ihr solltet noch im Formatierungsschritt sein, also das Fenster nicht geschlossen haben, sonst formatiert ihr einfach alles neu), um Linux zu installieren (euer SwitchOS wird nicht überschrieben).
-Ihr könnt auch "SD UMS" wählen, um eure SD-Karte am PC zu bearbeiten, ohne sie aus eurer Switch herauszunehmen.
+
+1. Ladet [Switchroot Ubuntu](https://download.switchroot.org/ubuntu-bionic/) oder [Switchroot Android](https://download.switchroot.org/android-11/) herunter (wählt dann die aktuelle `Switchroot Ubuntu.7z` oder `Switchroot Android.7z`) und kopiert die Ordner `switchroot` und `bootloader` auf eure SD-Karte.
+2. Geht dann in Hekate, unter "Tools" auf "Partition SD" und wählt anschließend "Flash Linux" oder "Flash Android" aus (dies wird die Dateien auf die erstellte Linux- oder Android-Partition flashen).
+
+Falls ihr die Partitionen noch nicht habt, sichert die Daten eurer SD-Karte und partitioniert eure SD-Karte neu (durch das Partitionieren werden alle Daten außer den Bootloader Daten gelöscht, oder bis zu 1 GB Daten können gesichert werden).
 
 ## Immer im RCM-Modus starten
 

@@ -19,6 +19,7 @@
 1. Ladet euch [Fat32 Format](http://ridgecrop.co.uk/index.htm?guiformat.htm) herunter.
 2. Startet die "guiformat.exe".
 3. Wählt eure SD-Karte aus (z.B. "D:").
+4. Startet des prozess um eure SD Karte zu Formatieren.
 
 ## MacOS
 
@@ -36,7 +37,7 @@
 
 Stelle sicher, dass man deine Switch jailbreaken kann. [IsMySwitchPatched](https://ismyswitchpatched.com/).
 
-- Ihr könnt eure Seriennummer unter eurer Switch auf einem Zettel sehen, den ihr eingeben könnt.
+- Ihr könnt eure Seriennummer unter eurer Switch sehen, den ihr eingeben könnt.
   Falls ihr die Seriennummer dort nicht habt, geht auf System-Einstellungen, dann auf "Konsole" und dann auf "Seriennummer", und könnt sie dort sehen.
 
 - Unpatched Switch bedeutet, dass ihr eure Switch zu 100% hacken könnt mit dieser Methode. Falls es später nicht funktioniert, habt IHR etwas falsch gemacht.
@@ -104,7 +105,7 @@ https://github.com/user-attachments/assets/8f381c94-6d2b-4a11-b05e-087c4c25cbe0
 4. Wählt dann die Option auf der linken Seite `eMMC BOOT0 & BOOT1` und wartet, bis es fertig ist.
 5. Wählt dann darunter `eMMC RAW GPP` und wartet, bis es fertig ist (dies dauert je nach Menge der Daten auf eurem System unterschiedlich lange; Durchschnitt: 10-15 Minuten).
 6. Schaltet dann die Switch aus und geht mit der SD-Karte an euren PC.
-7. Kopiert alle gebackupten Daten in einen Ordner auf eurem PC (es müssten 15 rawnand.bin Dateien auf der SD-Karte sein (0-14) und die BOOT0 und BOOT1-Dateien).
+7. Kopiert alle gebackupten Daten in einen Ordner auf eurem PC (es müssten 15 rawnand.bin Dateien auf der SD-Karte sein (0-14) und die BOOT0 und BOOT1.bin-Dateien).
 8. Löscht dann diese Dateien von eurer SD-Karte.
 
 https://github.com/user-attachments/assets/519954b8-f653-460f-8a7c-23a3ad105ab2

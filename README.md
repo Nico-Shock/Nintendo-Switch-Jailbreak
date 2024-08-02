@@ -69,7 +69,7 @@ Stelle sicher, dass man deine Switch jailbreaken kann. [IsMySwitchPatched](https
 2. Geht dann auf `Create emuMMC`.
 3. Wählt `SD Partition`.
 4. Geht dann auf Continue und dann auf OK.
-5. Wählt bei `emuMMC` die Balken auf Full, damit euer System komplett darauf kopiert wird (da CFW separat vom normalen System läuft).
+5. Wählt bei `emuMMC` die Balken auf "29 Full", Damit euer System komplett auf eine neue, separate Partition kopiert wird. (Man lässt es separat laufen, da es stabiler läuft und eine extreme Sicherheit bietet, da man seine "Main" Switch nicht direkt brickt. Zudem ist es sicherer, online zu spielen, wenn man im "Stock Mode" bootet.)
 6. Ihr könnt auch für Android und Linux Speicher reservieren, falls ihr das installieren möchtet.
 7. Geht dann auf `Next Step` und dann auf `Start` und bestätigt alles weitere, um fortzufahren. Die SD-Karte wird partitioniert.
 8. Geht dann nochmal auf `Create emuMMC` und dann auf `SD Partition` und wählt Part 1 (falls ihr mehrere Parts auswählen könnt, wählt alle einmal aus. Der Vorgang kann pro Part etwa 10-15 Minuten dauern.)

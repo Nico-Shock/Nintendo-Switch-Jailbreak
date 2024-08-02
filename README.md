@@ -86,7 +86,7 @@ Ihr könnt unter "Tools" auch "Auto Boot at startup", "Minimize to Tray" und "Au
 6. Geht dann nochmal auf `Create emuMMC` und dann auf `SD Partition` und wählt Part 1 (falls ihr mehrere Parts auswählen könnt, wählt alle einmal aus. Der Vorgang kann pro Part etwa 10-15 Minuten dauern.)
 
 <video width="500" controls>
-  <source src="https://github.com/Nico-Shock/Nintendo-Switch-Jailbreak/blob/main/Videos/Sd%20Karte%20Partitionieren%20E.mp4?raw=true" type="video/mp4">
+  <source src="https://github.com/Nico-Shock/Nintendo-Switch-Jailbreak/blob/main/Videos/Sd%20Karte%20Partitionieren%20E.mp4">
   Ihr Browser unterstützt das Video-Tag nicht.
 </video>
 

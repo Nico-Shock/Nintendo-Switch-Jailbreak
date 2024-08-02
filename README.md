@@ -10,7 +10,6 @@
 
 <img src="Bilder/Benötigte%20Items.jpg" alt="Benötigte Gegenstände" width="500"/>
 
-
 # SD Karten Vorbereitung
 
 *Wichtig: Man sollte nur Fat32 auf einer maximalen Partition von 64 GB nutzen, da man sonst nicht mehr Daten darauf schreiben kann. Nutzt ansonsten exFAT, das ihr mit einem Rechtsklick unter Windows auf "Formatieren" formatieren könnt. Unter macOS und Linux wählt einfach nur exFAT als Dateisystem bei den folgenden Schritten hier drunter aus.*
@@ -52,6 +51,8 @@ Stelle sicher, dass man deine Switch jailbreaken kann. [IsMySwitchPatched](https
 1. Schalte die Switch aus, indem du 3 Sekunden lang den Power-Knopf gedrückt hältst und unter Power Optionen "Ausschalten" wählst.
 2. Downloade das Clean RCM Pack [Clean RCM Pack](https://github.com/Nico-Shock/Clean-RCM-Pack/releases/)
 3. Ziehe nun alle Daten auf das Startverzeichnis der SD-Karte.
+
+<img src="Bilder/SD%20Karte%20Dateien.png" alt="SD Karte Dateien" width="500"/>
 
 # RCM Modus vorbereiten und starten
 

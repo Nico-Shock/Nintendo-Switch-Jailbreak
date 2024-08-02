@@ -76,7 +76,7 @@ Stelle sicher, dass man deine Switch jailbreaken kann. [IsMySwitchPatched](https
 
 ![TegraSettings](https://github.com/user-attachments/assets/285bcd27-9818-4c15-85f0-7a64cef7ab83)
 
-Ihr könnt unter "Tools" auch "Auto Boot at startup", "Minimize to Tray" und "Auto Inject Payload" aktivieren, damit der Payload automatisch gesendet wird, sobald ihr eure Switch mit dem USB-C Kabel verbindet.
+Ihr könnt unter "Tools" auch "Run App at startup", "Minimize to Tray" und "Auto Inject Payload" aktivieren, damit der Payload automatisch gesendet wird, sobald ihr eure Switch mit dem USB-C Kabel verbindet.
 
 5. Öffne TegraRcmGUI und mache ein doppelklick die Datei "hekate_ctcaer_5.0.0.bin" (oder wählt sie manuell aus und wählt "Inject Payload") Eure Switch sollte nun in Hekate Booten.
 
@@ -88,10 +88,10 @@ Ihr könnt unter "Tools" auch "Auto Boot at startup", "Minimize to Tray" und "Au
 
 1. Wählt in Hekate `Tools` aus.
 2. Wählt dann `Partition SD` (Ihr müsst die heruntergeladenen Daten nochmal auf eure SD Karte ziehen, WENN ihr ein größeres Pack heruntergeladen habt, da beim Partitionieren nicht mehr als 1 GB an Daten gebackupt werden können und alles von eurer SD Karte gelöscht wird.)
-3. Wählt bei `emuMMC` die Balken auf "29 Full", Damit euer System komplett auf eine neue, separate Partition kopiert wird. (Man lässt es separat laufen, da es stabiler läuft und eine extreme Sicherheit bietet, da man seine "Main" Switch nicht direkt brickt. Zudem ist es sicherer, online zu spielen, wenn man im "Stock Mode" bootet.)
+3. Wählt bei `emuMMC` die Balken auf "29 Full", Damit euer System komplett auf eine neue, separate Partition kopiert wird. (Man lässt es separat laufen, da es stabiler läuft und eine extreme Sicherheit bietet, da man seine "Main" Switch nicht direkt brickt. Zudem ist es sicherer, online zu spielen, da man keine homebrew apps oder ähnliches auf dem SysNAND insterlliert hat da die eventuell von Nintendo erkannt werden und ihr darauf hin gebannt werdet.)
 4. Ihr könnt auch für Android und Linux eine Partition erstellen, falls ihr das installieren möchtet.
 5. Geht dann auf `Next Step` und dann auf `Start` und bestätigt alles weitere, um fortzufahren. Die SD Karte wird partitioniert.
-6. Geht dann nochmal auf `Create emuMMC` und dann auf `SD Partition` und wählt Part 1 (falls ihr mehrere Parts auswählen könnt, wählt alle einmal aus. Der Vorgang kann pro Part etwa 10-15 Minuten dauern.)
+6. Geht dann nochmal auf `Create emuMMC` und dann auf `SD Partition` und wählt Part 1. (Falls ihr mehrere Partitionen habt, habt ihr über "29 FULL" ausgewählt und 2 Partitionen erstellt oder eure SD-Karte hatte generell von Anfang an 2 Partitionen.)
 
 https://github.com/user-attachments/assets/321794e3-a51c-4480-b8a7-c803a664ec6d
 

@@ -8,7 +8,7 @@
 - USB-C-Kabel 
 - PC/Laptop (oder ähnliches um Daten auf einer SD Karte zu bearbeiten)
 
-<img src="Bilder/Benötigte%20Items.jpg" alt="Benötigte Gegenstände" width="500"/>
+![Benötigte Items](https://github.com/user-attachments/assets/ac79dfec-e526-4aed-b3bd-01d51bd5d0fe)
 
 # SD Karten Vorbereitung
 
@@ -49,30 +49,38 @@ Stelle sicher, dass man deine Switch jailbreaken kann. [IsMySwitchPatched](https
 # SD Karten Setup
 
 1. Schalte die Switch aus, indem du 3 Sekunden lang den Power-Knopf gedrückt hältst und unter Power Optionen "Ausschalten" wählst.
+
+![Ausschalten Screen](https://github.com/user-attachments/assets/f2b1c464-d09e-4aa9-8d71-36d20a983684)
+
 2. Downloade das Clean RCM Pack [Clean RCM Pack](https://github.com/Nico-Shock/Clean-RCM-Pack/releases/)
 3. Ziehe nun alle Daten auf das Startverzeichnis der SD-Karte.
 
-<img src="Bilder/SD%20Karte%20Dateien.png" alt="SD Karte Dateien" width="500"/>
+![SD Karten Dateien](https://github.com/user-attachments/assets/2a9ef113-15a3-4895-8704-bf9794347da5)
 
 # RCM Modus vorbereiten und starten
 
    1. Schiebe den RCM Jig in den rechten Joy-Con-Slot rein, bis er richtig sitzt.
    2. Halte die Lauter-Taste und den Power-Knopf gedrückt, um den RCM-Modus zu aktivieren (halte erst die Lautstärke-Taste und dann die Power-Taste gedrückt).
 
-<img src="Bilder/RCM%20jig%20%2B%20USB.jpg" alt="RCM jig + USB" width="500"/>
+![RCM jig + USB](https://github.com/user-attachments/assets/88bd845c-6f84-468c-a589-5c16a89e4d9f)
 
 # Payload einfügen
 
 1. Lade TegraRcmGUI herunter von [TegraRcmGUI](https://github.com/eliboa/TegraRcmGUI/releases).
 2. Verbinde die Switch im RCM-Modus mit deinem PC über das USB-C-Kabel.
-3. Gehe unter "Tools" auf "Install Driver", um die APX-Treiber zu installieren, damit dein PC die Switch erkennen kann. (Es sollte ein grünes Feld erscheinen mit "RCM OK", was bedeutet, dass die Switch erfolgreich im RCM-Modus ist und von deinem PC erkannt wurde.)
-4. Öffne TegraRcmGUI und mache ein doppelklick die Datei "hekate_ctcaer_5.0.0.bin" (oder wählt sie manuell aus und wählt "Inject Payload")
+3. Öffnet TegraRcmGUI.exe
 
-<img src="Bilder/TegraSettings.png" alt="TegraSettings" width="500"/>
+![TegraRCM exe](https://github.com/user-attachments/assets/62bb7888-46cc-4c92-8776-6cab05ca9b8c)
 
-Ihr könnt unter "Tools" auch "Auto Boot at startup", "Minimize to Tray" und "Auto Inject Payload" aktivieren, damit der Payload automatisch gesendet wird, sobald ihr eure Switch mit dem USB-C Kabel verbindet.
+4. Gehe unter "Tools" auf "Install Driver", um die APX-Treiber zu installieren, damit dein PC die Switch erkennen kann. (Es sollte ein grünes Feld erscheinen mit "RCM OK", was bedeutet, dass die Switch erfolgreich im RCM-Modus ist und von deinem PC erkannt wurde.)
 
-<img src="Bilder/Hekate%20Boot.jpg" alt="Hekate Boot" width="500"/>
+![TegraSettings](https://github.com/user-attachments/assets/285bcd27-9818-4c15-85f0-7a64cef7ab83)
+
+Ihr könnt unter "Tools" auch "Auto Boot at startup", "Minimize to Tray" und "Auto Inject Payload" aktivieren, damit der Payload automatisch gesendet wird, sobald ihr eure Switch mit dem USB-C Kabel verbindet
+
+5. Öffne TegraRcmGUI und mache ein doppelklick die Datei "hekate_ctcaer_5.0.0.bin" (oder wählt sie manuell aus und wählt "Inject Payload")
+
+![Hekate Boot](https://github.com/user-attachments/assets/9d6224e7-9919-43d9-aa2b-7b692702088c)
 
 # Hekate konfigurieren
 
@@ -84,12 +92,9 @@ Ihr könnt unter "Tools" auch "Auto Boot at startup", "Minimize to Tray" und "Au
 4. Ihr könnt auch für Android und Linux eine Partition erstellen, falls ihr das installieren möchtet.
 5. Geht dann auf `Next Step` und dann auf `Start` und bestätigt alles weitere, um fortzufahren. Die SD-Karte wird partitioniert.
 6. Geht dann nochmal auf `Create emuMMC` und dann auf `SD Partition` und wählt Part 1 (falls ihr mehrere Parts auswählen könnt, wählt alle einmal aus. Der Vorgang kann pro Part etwa 10-15 Minuten dauern.)
-
 https://github.com/user-attachments/assets/321794e3-a51c-4480-b8a7-c803a664ec6d
 
-
 https://github.com/user-attachments/assets/8f381c94-6d2b-4a11-b05e-087c4c25cbe0
-
 
 ## Backup der NAND
 
@@ -102,9 +107,9 @@ https://github.com/user-attachments/assets/8f381c94-6d2b-4a11-b05e-087c4c25cbe0
 7. Kopiert alle gebackupten Daten in einen Ordner auf eurem PC (es müssten 15 rawnand.bin Dateien auf der SD-Karte sein (0-14) und die BOOT0 und BOOT1-Dateien).
 8. Löscht dann diese Dateien von eurer SD-Karte.
 
-
 https://github.com/user-attachments/assets/519954b8-f653-460f-8a7c-23a3ad105ab2
 
+![NAND backup](https://github.com/user-attachments/assets/a3070931-1c9b-4ae2-bd97-2a919b057b53)
 
 ## Wiederherstellung der NAND
 
@@ -130,9 +135,7 @@ Falls ihr die Partitionen noch nicht habt, sichert die Daten eurer SD-Karte und 
 1. Geht oben rechts auf "Optionen" und wählt "Auto Boot" und wählt im besten Fall "Atmosphere (EmuNAND)" aus.
 2. Ihr könnt das Boot-Logo in der Option darunter auch ausschalten (um wieder ins Hekate-Menü zu kommen, haltet die Lautstärke nach unten Taste gedrückt und sendet dann den Payload, bis ihr in Hekate startet).
 
-
 https://github.com/user-attachments/assets/13d5aca0-f560-4f9b-9a5c-bb18d6ac723d
-
 
 # CFW Atmosphere Laden
 
@@ -150,9 +153,7 @@ https://github.com/user-attachments/assets/13d5aca0-f560-4f9b-9a5c-bb18d6ac723d
 3. Wählt dann im Homebrew-Menü "90dns testing utility" und prüft, ob die Nintendo-Services geblockt wurden.
 4. Ihr könnt auch unter den Systemeinstellungen auf "Konsole" gehen und die Option "Fehlerinformationen senden" ausschalten (im besten Fall auch im SysNand oder im Stock-Modus).
 
-
 https://github.com/user-attachments/assets/f7966fc4-e599-4ec1-8789-d0bbb2a133b3
-
 
 # **WICHTIG!!!**
 

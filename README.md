@@ -8,7 +8,6 @@
 - USB-C-Kabel 
 - PC/Laptop (oder ähnliches um Daten auf einer SD Karte zu bearbeiten)
 
-![Benötigte Items](Bilder/Benötigte%20Items.jpg)
 <img src="Bilder/Benötigte%20Items.jpg" alt="Bild" width="300"/>
 
 

@@ -8,7 +8,7 @@
 - USB-C-Kabel 
 - PC/Laptop (oder ähnliches um Daten auf einer SD Karte zu bearbeiten)
 
-<img src="Bilder/Benötigte%20Items.jpg" alt="Bild" width="300"/>
+<img src="Bilder/Benötigte%20Items.jpg" alt="Benötigte Gegenstände" width="500"/>
 
 
 # SD Karten Vorbereitung

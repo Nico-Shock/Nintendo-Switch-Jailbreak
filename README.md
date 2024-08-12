@@ -52,7 +52,7 @@ Stelle sicher, dass man deine Switch jailbreaken kann. [IsMySwitchPatched](https
 
 ![Ausschalten Screen](https://github.com/user-attachments/assets/f2b1c464-d09e-4aa9-8d71-36d20a983684)
 
-2. Downloade das Clean RCM Pack [Clean RCM Pack](https://github.com/Nico-Shock/Clean-RCM-Pack/releases/)
+2. Downloade das Clean RCM Pack [Grey-NX Pack](https://github.com/Nico-Shock/Grey-NX-Pack/releases)
 3. Ziehe nun alle Daten auf das Startverzeichnis der SD-Karte.
 
 ![SD Karten Dateien](https://github.com/user-attachments/assets/2a9ef113-15a3-4895-8704-bf9794347da5)

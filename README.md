@@ -160,7 +160,7 @@ https://github.com/user-attachments/assets/f7966fc4-e599-4ec1-8789-d0bbb2a133b3
 
 1. Öffnet im Homebrew Menu "DBI".
 2. Geht auf "Browse SD" und wählt dann in den Verzeichnissen die Dateien aus, die ihr installieren wollt.
-3. Wenn ihr die Dateien ausgewählt habt, installiert ihr das auf die *WICHTIG:* SD-Karte und NICHT auf die NAND, da ihr später einen potenziellen Bann bekommen könnt. Wenn ihr wollt, könnt ihr die Datei danach löschen; ihr braucht sie so oder so nicht mehr.
+3. Wenn ihr die Dateien ausgewählt habt, installiert ihr das auf die *"WICHTIG":* SD-Karte und NICHT auf die NAND, da ihr später einen potenziellen Bann bekommen könnt. Wenn ihr wollt, könnt ihr die Datei danach löschen; ihr braucht sie so oder so nicht mehr.
 
 # **WICHTIG!!!**
 

@@ -122,8 +122,6 @@ https://github.com/user-attachments/assets/519954b8-f653-460f-8a7c-23a3ad105ab2
 1. Ladet [Switchroot Ubuntu](https://download.switchroot.org/ubuntu-bionic/) oder [Switchroot Android](https://download.switchroot.org/android-11/) herunter (wählt dann die aktuelle `Switchroot Ubuntu.7z` oder `Switchroot Android.7z`) und kopiert alle Ordner aufs Startverzeichniss auf eurer SD Karte.
 2. Geht dann in Hekate, unter "Tools" auf "Partition SD" und wählt anschließend "Flash Linux" oder "Flash Android" aus (dies wird die Dateien auf die erstellte Linux oder Android Partition flashen).
 
-Falls ihr die Partitionen noch nicht habt, sichert die Daten eurer SD Karte und partitioniert eure SD Karte neu (durch das Partitionieren werden alle Daten außer den Bootloader Daten gelöscht, oder bis zu 1 GB Daten können gesichert werden).
-
 ## Immer im RCM Modus starten
 
 1. In Hekate geht wieder auf Tools.

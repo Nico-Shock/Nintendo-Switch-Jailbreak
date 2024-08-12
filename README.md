@@ -105,7 +105,7 @@ https://github.com/user-attachments/assets/8f381c94-6d2b-4a11-b05e-087c4c25cbe0
 4. Wählt dann die Option auf der linken Seite `eMMC BOOT0 & BOOT1` und wartet, bis es fertig ist.
 5. Wählt dann darunter `eMMC RAW GPP` und wartet, bis es fertig ist (dieser Vorgang dauert durchschnittlich 10-15 Minuten, je nach der Menge an Daten auf eurer Switch.)
 6. Schaltet dann die Switch aus und geht mit der SD Karte an euren PC.
-7. Kopiert alle gebackupten Daten in einen Ordner auf eurem PC (es müssten 15 rawnand.bin Dateien auf der SD Karte sein (0-14) und die BOOT0 und BOOT1.bin-Dateien).
+7. Kopiert alle gebackupten Daten in einen Ordner auf eurem PC (Ihr habt vielleicht nur eine "rawnand.bin". Manchmal werden die Dateien gesplittet.)
 8. Löscht dann diese Dateien von eurer SD Karte.
 
 https://github.com/user-attachments/assets/519954b8-f653-460f-8a7c-23a3ad105ab2
@@ -155,6 +155,12 @@ https://github.com/user-attachments/assets/13d5aca0-f560-4f9b-9a5c-bb18d6ac723d
 4. Ihr könnt auch unter den Systemeinstellungen auf "Konsole" gehen und die Option "Fehlerinformationen senden" ausschalten (im besten Fall auch im SysNand oder im Stock Modus).
 
 https://github.com/user-attachments/assets/f7966fc4-e599-4ec1-8789-d0bbb2a133b3
+
+# optionale NSPs/XCI Dateien installieren
+
+1. Öffnet im Homebrew Menu "DBI".
+2. Geht auf "Browse SD" und wählt dann in den Verzeichnissen die Dateien aus, die ihr installieren wollt.
+3. Wenn ihr die Dateien ausgewählt habt, installiert ihr das auf die *WICHTIG* SD-Karte und NICHT auf die NAND, da ihr später einen potenziellen Bann bekommen könnt. Wenn ihr wollt, könnt ihr die Datei danach löschen; ihr braucht sie so oder so nicht mehr.
 
 # **WICHTIG!!!**
 

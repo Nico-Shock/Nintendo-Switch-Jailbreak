@@ -87,7 +87,7 @@ Ihr könnt unter "Tools" auch "Run App at startup", "Minimize to Tray" und "Auto
 ## SD Karte partitionieren und emuMMC erstellen
 
 1. Wählt in Hekate `Tools` aus.
-2. Wählt dann `Partition SD` (Ihr müsst die heruntergeladenen Daten nochmal auf eure SD Karte ziehen, WENN ihr ein größeres Pack heruntergeladen habt, da beim Partitionieren nicht mehr als 1 GB an Daten gebackupt werden können und alles von eurer SD Karte gelöscht wird.)
+2. Wählt dann `Partition SD`
 3. Wählt bei `emuMMC` die Balken auf "29 Full", Damit euer System komplett auf eine neue, separate Partition kopiert wird. (Man lässt es separat laufen, da es stabiler läuft und eine extreme Sicherheit bietet, da man seine "Main" Switch nicht direkt brickt. Zudem ist es sicherer, online zu spielen, da man keine homebrew apps oder ähnliches auf dem SysNAND insterlliert hat da die eventuell von Nintendo erkannt werden und ihr darauf hin gebannt werdet.)
 4. Ihr könnt auch für Android und Linux eine Partition erstellen, falls ihr das installieren möchtet.
 5. Geht dann auf `Next Step` und dann auf `Start` und bestätigt alles weitere, um fortzufahren. Die SD Karte wird partitioniert.
@@ -101,12 +101,11 @@ https://github.com/user-attachments/assets/8f381c94-6d2b-4a11-b05e-087c4c25cbe0
 
 1. Geht dann oben auf Tools.
 2. Wählt dann `Backup eMMC`.
-3. Wenn ihr wollt, könnt ihr die Option anschalten mit `SD emuMMC Raw Partition` (ich lasse es hier aus).
-4. Wählt dann die Option auf der linken Seite `eMMC BOOT0 & BOOT1` und wartet, bis es fertig ist.
-5. Wählt dann darunter `eMMC RAW GPP` und wartet, bis es fertig ist (dieser Vorgang dauert durchschnittlich 10-15 Minuten, je nach der Menge an Daten auf eurer Switch.)
-6. Schaltet dann die Switch aus und geht mit der SD Karte an euren PC.
-7. Kopiert alle gebackupten Daten in einen Ordner auf eurem PC (Ihr habt vielleicht nur eine "rawnand.bin". Manchmal werden die Dateien gesplittet.)
-8. Löscht dann diese Dateien von eurer SD Karte.
+3. Wählt dann die Option auf der linken Seite `eMMC BOOT0 & BOOT1` und wartet, bis es fertig ist.
+4. Wählt dann darunter `eMMC RAW GPP` und wartet, bis es fertig ist (dieser Vorgang dauert durchschnittlich 10-15 Minuten, je nach der Menge an Daten auf eurer Switch.)
+5. Schaltet dann die Switch aus und geht mit der SD Karte an euren PC.
+6. Kopiert alle gebackupten Daten in einen Ordner auf eurem PC (Ihr habt vielleicht nur eine "rawnand.bin". Manchmal werden die Dateien gesplittet.)
+7. Löscht dann diese Dateien von eurer SD Karte.
 
 https://github.com/user-attachments/assets/519954b8-f653-460f-8a7c-23a3ad105ab2
 

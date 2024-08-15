@@ -44,7 +44,7 @@ Stelle sicher, dass man deine Switch jailbreaken kann. [IsMySwitchPatched](https
 
 - Falls ihr eine Possible Patched Switch habt, könnte der Payload funktionieren, könnte aber auch nicht. Man kann es daran erkennen, dass man in TegraRCM das Fenster „RCM OK“ hat und wenn man den Payload einfügt, dass die Switch Schwarz bleibt.
   
-- Falls ihr eine Patched Switch habt, wird es zu 100% NICHT funktionieren. Ihr benötigt aufjedenfall einen Modchip, den ihr in die Switch verlötet, was erweitertes Wissen und Risiko mit sich bringt. Wenn ihr einen Modchip installiert, benötigt ihr nur eine SD Karte mit den Daten vom „Clean RCM Pack“. Aber nur Switch V1 werden funktionieren mit den Daten, also unpatched Switches. Für andere Modelle (Switch V2, OLED oder LITE) benötigt ihr andere Daten.
+- Falls ihr eine gepatchte Switch habt, wird es zu 100 % NICHT funktionieren. Ihr benötigt auf jeden Fall einen Modchip, der mit Mikrolöten und empfindlicher Hardware zu tun hat, was riskant ist und erweitertes Wissen mit sich bringt.
 
 # SD Karten Setup
 
@@ -52,7 +52,7 @@ Stelle sicher, dass man deine Switch jailbreaken kann. [IsMySwitchPatched](https
 
 ![Ausschalten Screen](https://github.com/user-attachments/assets/f2b1c464-d09e-4aa9-8d71-36d20a983684)
 
-2. Downloade das Grey-NX Pack [Grey-NX Pack](https://github.com/Nico-Shock/Grey-NX-Pack/releases)
+2. Downloade das Grey-NX Pack [Grey-NX Pack](https://github.com/Nico-Shock/Grey-NX-Pack)
 3. Ziehe nun alle Daten auf das Startverzeichnis der SD Karte.
 
 ![SD Karten Dateien](https://github.com/user-attachments/assets/2a9ef113-15a3-4895-8704-bf9794347da5)
@@ -66,7 +66,7 @@ Stelle sicher, dass man deine Switch jailbreaken kann. [IsMySwitchPatched](https
 
 # Payload einfügen
 
-1. Lade TegraRcmGUI herunter von [TegraRcmGUI](https://github.com/eliboa/TegraRcmGUI/releases).
+1. Lade TegraRcmGUI herunter von [TegraRcmGUI](https://github.com/eliboa/TegraRcmGUI/releases/latest).
 2. Verbinde die Switch im RCM Modus mit deinem PC über das USB-C Kabel.
 3. Öffnet TegraRcmGUI.exe
 

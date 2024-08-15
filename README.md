@@ -12,7 +12,7 @@
 
 # SD Karten Vorbereitung
 
-Wichtig: Man sollte nur FAT32 auf einer maximalen Partition von 64 GB nutzen, da man sonst nicht mehr Daten darauf schreiben kann. Nutzt ansonsten exFAT, das ihr ganz normal über den Windows Explorer formatieren könnt. In macOS und Linux wählt ihr exFAT einfach in den Schritten hier drunter als Dateisystem aus.
+Wichtig: Man sollte nur FAT32 auf einer maximalen Partition von 64 GB nutzen, da man sonst nicht mehr Daten darauf schreiben kann. Nutzt ansonsten exFAT, das ihr ganz normal über den Windows Explorer formatieren könnt. In macOS und Linux wählt ihr exFAT statt Fat32 in den Schritten hier drunter als Dateisystem aus.
 
 ## Windows
 

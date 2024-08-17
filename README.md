@@ -144,7 +144,7 @@ https://github.com/user-attachments/assets/13d5aca0-f560-4f9b-9a5c-bb18d6ac723d
    - Du kannst das Homebrew Menü über das Album starten oder R gedrückt halten und ein legitimes Spiel starten, um Homebrew mit Admin Rechten zu starten und darüber deine Insterllierten Apps starten.
    - Du kannst über den Homebrew Appstore auch neue Apps herunterladen und insterllieren.
 
-# Switch Ban vermeiden
+# Switch Ban möglichst vermeiden
 
 1. Geht dann in das Album in der CFW, um Homebrew zu öffnen, und wählt "90dns setter" aus.
 2. Drückt dann "X", um die DNS Einstellungen für jedes Internet einzustellen, und wählt "Y", um neu zu starten.

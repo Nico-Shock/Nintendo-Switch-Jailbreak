@@ -90,7 +90,7 @@ Ihr könnt unter "Tools" auch "Run App at startup", "Minimize to Tray" und "Auto
 2. Wählt dann `Partition SD`
 3. Wählt bei `emuMMC` die Balken auf "29 Full", Damit euer System komplett auf eine neue, separate Partition kopiert wird. (Man lässt es separat laufen, da es stabiler läuft und eine extreme Sicherheit bietet, da man seine "Main" Switch nicht direkt brickt. Zudem ist es sicherer, online zu spielen, da man keine homebrew apps oder ähnliches auf dem SysNAND insterlliert hat, da die eventuell von Nintendo erkannt werden und ihr darauf hin gebannt werdet.)
 4. Ihr könnt auch für Android und Linux eine Partition erstellen, falls ihr das installieren möchtet.
-5. Geht dann auf `Next Step` und dann auf `Start` und bestätigt alles weitere, um fortzufahren. Die SD Karte wird partitioniert.
+5. Geht dann auf `Next Step` und dann auf `Start` und bestätigt alles weitere, um fortzufahren um die SD Karte zu partitionieren.
 6. Geht dann nochmal auf `Create emuMMC` und dann auf `SD Partition` und wählt Part 1. (Falls ihr mehrere Partitionen habt, habt ihr über "29 FULL" ausgewählt und 2 Partitionen erstellt oder eure SD Karte hatte generell von Anfang an 2 Partitionen.)
 
 https://github.com/user-attachments/assets/321794e3-a51c-4480-b8a7-c803a664ec6d

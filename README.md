@@ -88,7 +88,7 @@ Ihr könnt unter "Tools" auch "Run App at Startup", "Minimize to Tray" und "Auto
 
 1. Wählt in Hekate `Tools` aus.
 2. Wählt dann `Partition SD`
-3. Wählt bei `emuMMC` den Balken auf "29 Full", damit euer System komplett auf eine neue, separate Partition kopiert wird. (Kurz gesagt: Es hat Sicherheitsgründe, da es separat auf der SD Karte geklont läuft.)
+3. Wählt bei `emuMMC` den Balken auf "29 Full", damit euer System komplett auf eine neue, separate Partition kopiert wird. (Warum kurzgefasst: Es ist sicherer, da es separat auf der SD Karte geklont läuft.)
 4. Ihr könnt auch für Android und Linux eine Partition erstellen, falls ihr das installieren möchtet.
 5. Geht dann auf `Next Step` und dann auf `Start` und bestätigt alles weitere, um fortzufahren um die SD Karte zu partitionieren.
 6. Geht dann nochmal auf `Create emuMMC` und dann auf `SD Partition` und wählt Part 1. (Falls ihr mehrere Partitionen habt, habt ihr über "29 FULL" ausgewählt und 2 Partitionen erstellt oder eure SD Karte hatte generell von Anfang an 2 Partitionen.)

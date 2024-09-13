@@ -101,15 +101,12 @@ https://github.com/user-attachments/assets/8f381c94-6d2b-4a11-b05e-087c4c25cbe0
 ## Backup der NAND
 
 1. Geht dann oben auf Tools.
-2. Wählt dann "Backup eMMC".
-
-  Ihr werdet eine Option finden, die "SD emuMMC Raw Partition" heißt. Wenn ihr diese aktiviert, wird der NAND statt aus dem SysNAND vom emuNAND gebackupt, was normalerweise aber nicht nötig ist.
-
-4. Wählt dann die Option auf der linken Seite "eMMC BOOT0 & BOOT1" und wartet, bis es fertig ist.
-5. Wählt dann darunter "eMMC RAW GPP" und wartet, bis es fertig ist (dieser Vorgang dauert durchschnittlich 10-15 Minuten, je nach der Menge an Daten auf eurer Switch.)
-6. Schaltet dann die Switch aus und geht mit der SD Karte an euren PC.
-7. Kopiert alle gebackupten Daten in einen Ordner auf eurem PC (Ihr habt vielleicht nur eine "rawnand.bin". Manchmal werden die Dateien gesplittet.)
-8. Löscht dann diese Dateien von eurer SD Karte.
+2. Wählt dann "Backup eMMC". (Ihr werdet eine Option finden, die "SD emuMMC Raw Partition" heißt. Wenn ihr diese aktiviert, wird der NAND statt aus dem SysNAND vom emuNAND gebackupt, was normalerweise aber nicht nötig ist.)
+3. Wählt dann die Option auf der linken Seite "eMMC BOOT0 & BOOT1" und wartet, bis es fertig ist.
+4. Wählt dann darunter "eMMC RAW GPP" und wartet, bis es fertig ist (dieser Vorgang dauert durchschnittlich 10-15 Minuten, je nach der Menge an Daten auf eurer Switch.)
+5. Schaltet dann die Switch aus und geht mit der SD Karte an euren PC.
+6. Kopiert alle gebackupten Daten in einen Ordner auf eurem PC (Ihr habt vielleicht nur eine "rawnand.bin". Manchmal werden die Dateien gesplittet.)
+7. Löscht dann diese Dateien von eurer SD Karte.
 
 https://github.com/user-attachments/assets/519954b8-f653-460f-8a7c-23a3ad105ab2
 

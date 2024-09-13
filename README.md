@@ -92,7 +92,7 @@ Ihr könnt unter "Tools" auch "Run App at Startup", "Minimize to Tray" und "Auto
 4. Geht dann auf `Next Step` und dann auf `Start` und bestätigt alles weitere, um fortzufahren um die SD Karte zu partitionieren.
 5. Geht dann nochmal auf `Create emuMMC` und dann auf `SD Partition` und wählt Part 1. (Falls ihr mehrere Partitionen habt, habt ihr über "29 FULL" ausgewählt und 2 Partitionen erstellt oder eure SD Karte hatte generell von Anfang an 2 Partitionen.)
 
-- Man erstellt eine EmuMMC Partition, da es sicherer ist, weil das "Switch-OS" separat läuft, z.B. wird es vor Bricks geschützt und man minimiert die Wahrscheinlichkeit, gebannt zu werden.
+Man erstellt eine EmuMMC Partition, da es sicherer ist, weil das "Switch-OS" separat läuft, z.B. wird es vor Bricks geschützt und man minimiert die Wahrscheinlichkeit, gebannt zu werden.
 
 https://github.com/user-attachments/assets/321794e3-a51c-4480-b8a7-c803a664ec6d
 
@@ -158,7 +158,7 @@ https://github.com/user-attachments/assets/13d5aca0-f560-4f9b-9a5c-bb18d6ac723d
 3. Wählt dann im Homebrew Menü "90dns testing utility" und prüft, ob die Nintendo Services geblockt wurden.
 4. Ihr könnt auch unter den Systemeinstellungen auf "Konsole" gehen und die Option "Fehlerinformationen senden" ausschalten (im besten Fall auch im SysNand oder im Stock Modus).
 
-- *Wichtig: Man kann trotzdem immer gebannt werden, obwohl man alles richtig gemacht hat, z.B. die Server blockiert, keine Anwendungen ins Home Menü installiert hat usw. In dem Moment, wo man sich mit den Nintendo Servern verbindet, ohne CFW Daten, ohne installierte Dinge oder ohne SD Karte oder anderes, kann es trotzdem zu einem Bann kommen.*
+*Wichtig: Man kann trotzdem immer gebannt werden, obwohl man alles richtig gemacht hat, z.B. die Server blockiert, keine Anwendungen ins Home Menü installiert hat usw. In dem Moment, wo man sich mit den Nintendo Servern verbindet, ohne CFW Daten, ohne installierte Dinge oder ohne SD Karte oder anderes, kann es trotzdem zu einem Bann kommen.*
 
 https://github.com/user-attachments/assets/f7966fc4-e599-4ec1-8789-d0bbb2a133b3
 

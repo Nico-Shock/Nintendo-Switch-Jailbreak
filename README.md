@@ -3,10 +3,10 @@
 # Was Du brauchst
 
 - Nintendo Switch V1
-- MicroSD Karte (mindestens 64GB wird empfohlen)
+- MicroSD Karte (mindestens 64GB)
 - RCM Jig
 - USB-C Kabel 
-- PC/Laptop (oder ähnliches um Daten auf einer SD Karte zu bearbeiten)
+- PC/Laptop (oder ein anderes Gerät, um Daten auf einer SD Karte zu bearbeiten)
 
 ![Benötigte Items](https://github.com/user-attachments/assets/ac79dfec-e526-4aed-b3bd-01d51bd5d0fe)
 
@@ -66,7 +66,7 @@ Stelle sicher, dass man deine Switch jailbreaken kann. [IsMySwitchPatched](https
 
 # Payload einfügen
 
-1. Lade TegraRcmGUI herunter von [TegraRcmGUI](https://github.com/eliboa/TegraRcmGUI/releases/latest).
+1. Lade TegraRcmGUI [hier](https://github.com/eliboa/TegraRcmGUI/releases/latest) herunter.
 2. Verbinde die Switch im RCM Modus mit deinem PC über das USB-C Kabel.
 3. Öffnet TegraRcmGUI.exe
 
@@ -76,9 +76,9 @@ Stelle sicher, dass man deine Switch jailbreaken kann. [IsMySwitchPatched](https
 
 ![TegraSettings](https://github.com/user-attachments/assets/285bcd27-9818-4c15-85f0-7a64cef7ab83)
 
-Ihr könnt unter "Tools" auch "Run App at startup", "Minimize to Tray" und "Auto Inject Payload" aktivieren, damit der Payload automatisch gesendet wird, sobald ihr eure Switch mit dem USB-C Kabel verbindet.
+Ihr könnt unter "Tools" auch "Run App at Startup", "Minimize to Tray" und "Auto Inject Payload" aktivieren, damit man z.B. den Payload automatisch immer sendet oder die App beim Hochfahren automatisch startet.
 
-5. Öffne TegraRcmGUI und mache ein doppelklick auf die Datei "hekate_ctcaer_5.0.0.bin" (oder wählt sie manuell aus und wählt "Inject Payload") Eure Switch sollte nun in Hekate Booten.
+5. Öffne TegraRcmGUI und mache einen Doppelklick auf die Datei "hekate_ctcaer_5.0.0.bin" oder neuer (oder wähle sie manuell über das kleine Ordnersymbol aus und klicke auf "Inject Payload"). Eure Switch sollte nun in Hekate booten.
 
 ![Hekate Boot](https://github.com/user-attachments/assets/9d6224e7-9919-43d9-aa2b-7b692702088c)
 
@@ -88,7 +88,7 @@ Ihr könnt unter "Tools" auch "Run App at startup", "Minimize to Tray" und "Auto
 
 1. Wählt in Hekate `Tools` aus.
 2. Wählt dann `Partition SD`
-3. Wählt bei `emuMMC` die Balken auf "29 Full", Damit euer System komplett auf eine neue, separate Partition kopiert wird. (Man lässt es separat laufen, da es stabiler läuft und eine extreme Sicherheit bietet, da man seine "Main" Switch nicht direkt brickt. Zudem ist es sicherer, online zu spielen, da man keine homebrew apps oder ähnliches auf dem SysNAND insterlliert hat, da die eventuell von Nintendo erkannt werden und ihr darauf hin gebannt werdet.)
+3. Wählt bei `emuMMC` den Balken auf "29 Full", damit euer System komplett auf eine neue, separate Partition kopiert wird. (Kurz gesagt: Es hat Sicherheitsgründe, da es separat auf der SD Karte geklont läuft.)
 4. Ihr könnt auch für Android und Linux eine Partition erstellen, falls ihr das installieren möchtet.
 5. Geht dann auf `Next Step` und dann auf `Start` und bestätigt alles weitere, um fortzufahren um die SD Karte zu partitionieren.
 6. Geht dann nochmal auf `Create emuMMC` und dann auf `SD Partition` und wählt Part 1. (Falls ihr mehrere Partitionen habt, habt ihr über "29 FULL" ausgewählt und 2 Partitionen erstellt oder eure SD Karte hatte generell von Anfang an 2 Partitionen.)
@@ -100,27 +100,32 @@ https://github.com/user-attachments/assets/8f381c94-6d2b-4a11-b05e-087c4c25cbe0
 ## Backup der NAND
 
 1. Geht dann oben auf Tools.
-2. Wählt dann `Backup eMMC`.
-3. Wählt dann die Option auf der linken Seite `eMMC BOOT0 & BOOT1` und wartet, bis es fertig ist.
-4. Wählt dann darunter `eMMC RAW GPP` und wartet, bis es fertig ist (dieser Vorgang dauert durchschnittlich 10-15 Minuten, je nach der Menge an Daten auf eurer Switch.)
-5. Schaltet dann die Switch aus und geht mit der SD Karte an euren PC.
-6. Kopiert alle gebackupten Daten in einen Ordner auf eurem PC (Ihr habt vielleicht nur eine "rawnand.bin". Manchmal werden die Dateien gesplittet.)
-7. Löscht dann diese Dateien von eurer SD Karte.
+2. Wählt dann "Backup eMMC".
+
+Ihr werdet eine Option finden, die "SD emuMMC Raw Partition" heißt. Wenn ihr diese aktiviert, wird der NAND statt aus dem SysNAND vom emuNAND gebackupt, was normalerweise aber nicht nötig ist.
+
+4. Wählt dann die Option auf der linken Seite "eMMC BOOT0 & BOOT1" und wartet, bis es fertig ist.
+5. Wählt dann darunter "eMMC RAW GPP" und wartet, bis es fertig ist (dieser Vorgang dauert durchschnittlich 10-15 Minuten, je nach der Menge an Daten auf eurer Switch.)
+6. Schaltet dann die Switch aus und geht mit der SD Karte an euren PC.
+7. Kopiert alle gebackupten Daten in einen Ordner auf eurem PC (Ihr habt vielleicht nur eine "rawnand.bin". Manchmal werden die Dateien gesplittet.)
+8. Löscht dann diese Dateien von eurer SD Karte.
 
 https://github.com/user-attachments/assets/519954b8-f653-460f-8a7c-23a3ad105ab2
 
 ![NAND backup](https://github.com/user-attachments/assets/a3070931-1c9b-4ae2-bd97-2a919b057b53)
 
-## Wiederherstellung der NAND
+## Wiederherstellung des NAND
 
-1. Kopiert die gebackupten Dateien und packt sie in `restore` dann `emummc` auf der SD Karte.
-2. Wenn ihr dann in Hekate seid, könnt ihr unter Tools "Restore eMMC" wählen.
-3. Wählt dann `eMMC BOOT0 & BOOT1` und `eMMC RAW GPP` aus, um die NAND wiederherzustellen.
+1. Kopiert die zuvor gebackupten Dateien auf eure SD Karte in den "backup" Ordner unter "restore", falls ihr euren SysNAND wiederherstellen wollt. Für den EmuNAND müsst ihr die Dateien dann in den "emummc" Ordner im "backup" Ordner in den "restore" Ordner (nicht den "partitions" Ordner) kopieren.
+2. Geht dann in Hekate und wählt unter "Tools" die Option "Restore eMMC".
+3. Wählt dann "eMMC BOOT0 & BOOT1" und "eMMC RAW GPP" aus, um den NAND wiederherzustellen.
+
+Hier müsst ihr wieder "SD emuMMC Raw Partition" auswählen, falls ihr statt euren SysNAND euren EmuNAND wiederherstellen wollt.
 
 ## Falls ihr Linux oder Android installieren wollt:
 
-1. Ladet [Switchroot Ubuntu](https://download.switchroot.org/ubuntu-bionic/) oder [Switchroot Android](https://download.switchroot.org/android-11/) herunter (wählt dann die aktuelle `Switchroot Ubuntu.7z` oder `Switchroot Android.7z`) und kopiert alle Ordner aufs Startverzeichniss auf eurer SD Karte.
-2. Geht dann in Hekate, unter "Tools" auf "Partition SD" und wählt anschließend "Flash Linux" oder "Flash Android" aus (dies wird die Dateien auf die erstellte Linux oder Android Partition flashen).
+1. Ladet [Switchroot Ubuntu](https://download.switchroot.org/ubuntu-bionic/) oder [Switchroot Android](https://download.switchroot.org/android-10/) herunter (wählt dann die aktuelle "Switchroot Ubuntu.7z" oder "Switchroot Android.7z") und kopiert alle Ordner aufs Startverzeichniss auf eurer SD Karte.
+2. Geht dann in Hekate, unter "Tools" auf "Partition SD" und wählt anschließend "Flash Linux" und oder "Flash Android" aus (dies wird die Dateien auf die erstellte Linux oder Android Partition flashen).
 
 ## Immer im RCM Modus starten
 
@@ -130,19 +135,20 @@ https://github.com/user-attachments/assets/519954b8-f653-460f-8a7c-23a3ad105ab2
 
 ## Auto Boot konfigurieren
 
-1. Geht oben rechts auf "Optionen" und wählt "Auto Boot" und wählt im besten Fall "Atmosphere (EmuNAND)" aus.
+1. Geht oben rechts auf "Optionen" und wählt "Auto Boot" und wählt im besten Fall "BootCFW (EmuNAND)" aus.
 2. Ihr könnt das Boot Logo in der Option darunter auch ausschalten (um wieder ins Hekate Menü zu kommen, haltet die Lautstärke nach unten Taste gedrückt und sendet dann den Payload, bis ihr in Hekate startet).
 
 https://github.com/user-attachments/assets/13d5aca0-f560-4f9b-9a5c-bb18d6ac723d
 
 # CFW Atmosphere Laden
 
-1. Geht in Hekate unter Home auf "Launch" und wählt "Atmosphere (EmuNAND)" aus, um dort rein zu booten.
+1. Geht in Hekate unter Home auf "Launch" und wählt "BootCFW (EmuNAND)" aus, um dort rein zu booten.
 
 # Homebrew laden
 
-   - Du kannst das Homebrew Menü über das Album starten oder R gedrückt halten und ein legitimes Spiel starten, um Homebrew mit Admin Rechten zu starten und darüber deine Insterllierten Apps starten.
-   - Du kannst über den Homebrew Appstore auch neue Apps herunterladen und insterllieren.
+- Du kannst das Homebrew Menü über das Album starten oder die R Taste gedrückt halten und ein legitimes Spiel starten, um das Homebrew Menü mit Admin Rechten zu starten und darüber deine Homebrew Apps zu starten.
+- Du kannst über den Homebrew Appstore auch neue Apps herunterladen und installieren.
+- Der Unterschied zwischen dem Applet Modus (Album) und der Application im Homebrew ist, dass es über ein Spiel (Application) vollen Zugriff auf die Systemressourcen hat und nur so manche Sachen nutzbar sind, wie z.B. RetroArch.
 
 # Switch Ban möglichst vermeiden
 
@@ -151,17 +157,19 @@ https://github.com/user-attachments/assets/13d5aca0-f560-4f9b-9a5c-bb18d6ac723d
 3. Wählt dann im Homebrew Menü "90dns testing utility" und prüft, ob die Nintendo Services geblockt wurden.
 4. Ihr könnt auch unter den Systemeinstellungen auf "Konsole" gehen und die Option "Fehlerinformationen senden" ausschalten (im besten Fall auch im SysNand oder im Stock Modus).
 
+- *Wichtig: Man kann trotzdem immer gebannt werden, obwohl man alles richtig gemacht hat, z.B. die Server blockiert, keine Anwendungen ins Home Menü installiert hat usw. In dem Moment, wo man sich mit den Nintendo Servern verbindet, ohne CFW Daten, ohne installierte Dinge oder ohne SD Karte oder anderes, kann es trotzdem zu einem Bann kommen.*
+
 https://github.com/user-attachments/assets/f7966fc4-e599-4ec1-8789-d0bbb2a133b3
 
 # optionale NSPs/XCI Dateien installieren
 
-1. Öffnet im Homebrew Menu "DBI".
+1. Öffnet im Homebrew Menu "DBI" (oder andere Apps, die ähnlich oder genau so funktionieren wie z.B. Goldleaf oder Tinfoil).
 2. Geht auf "Browse SD" und wählt dann in den Verzeichnissen die Dateien aus, die ihr installieren wollt.
 3. Wenn ihr die Dateien ausgewählt habt, installiert ihr das auf die *"WICHTIG":* SD Karte und NICHT auf die NAND, da ihr später einen potenziellen Bann bekommen könnt. Wenn ihr wollt, könnt ihr die Datei danach löschen ihr braucht sie so oder so nicht mehr.
 
 # **WICHTIG!!!**
 
-SPIELT NICHT ONLINE, LADET KEINE UPDATES HERUNTER UND INTERAGIERT GENERELL NICHT MIT DEN NINTENDO SERVERN WIE NINTENDO E-SHOP ODER NINTENDO SWITCH ONLINE, SONST WERDET IHR ONLINE GEBANNT ODER EURE KONSOLE WIRD KOMPLETT GEBANNT. UM ZUGANG ZU DEN NINTENDO SERVERN IN DER CFW ZU VERHINDERN, FOLGT DEM SCHRITT HIER ÜBER DIESEM TEXT.
+*SPIELT NICHT ONLINE, LADET KEINE UPDATES HERUNTER UND INTERAGIERT GENERELL NICHT MIT DEN NINTENDO SERVERN WIE NINTENDO E-SHOP ODER NINTENDO SWITCH ONLINE, SONST WERDET IHR ONLINE GEBANNT ODER EURE KONSOLE WIRD KOMPLETT GEBANNT. UM ZUGANG ZU DEN NINTENDO SERVERN IN DER CFW ZU VERHINDERN, FOLGT DEM SCHRITT HIER ÜBER DIESEM TEXT.
 
 BITTE LADET EUCH KEINE ROMS ONLINE RUNTER UND VERSTÖßT NICHT GEGEN PIRATERIE (Piracy) UND ERWIRBT DIE SPIELE ALLE LEGAL SELBST, INDEM IHR SIE EUCH KAUFT. ALLE SPIELE, DIE ICH SPIELE, BESITZE ICH SELBST UND HABE SIE MIR LEGAL ERWORBEN.
-ICH UNTERSTÜTZE KEINE PIRATERIE (Piracy) UND MÖCHTE NICHT, DASS ANDERE HIERDURCH DAZU VERLEITET WERDEN, SPIELE ILLEGAL ZU BESITZEN UND ZU SPIELEN.
+ICH UNTERSTÜTZE KEINE PIRATERIE (Piracy) UND MÖCHTE NICHT, DASS ANDERE HIERDURCH DAZU VERLEITET WERDEN, SPIELE ILLEGAL ZU BESITZEN UND ZU SPIELEN.*

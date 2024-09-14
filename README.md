@@ -122,7 +122,7 @@ Hier müsst ihr wieder "SD emuMMC Raw Partition" auswählen, falls ihr statt eur
 
 ## Falls ihr Linux oder Android installieren wollt:
 
-1. Ladet [Switchroot Ubuntu](https://download.switchroot.org/ubuntu-bionic/) oder [Switchroot Android](https://download.switchroot.org/android-10/) herunter (wählt dann die aktuelle "Switchroot Ubuntu.7z" oder "Switchroot Android.7z") und kopiert alle Ordner aufs Startverzeichniss auf eurer SD Karte.
+1. Ladet [Switchroot Ubuntu](https://download.switchroot.org/ubuntu-bionic/) oder [Switchroot Android](https://download.switchroot.org/android-10/) herunter (wählt dann die aktuelle "Switchroot Ubuntu.7z" oder "Switchroot Android.7z") und kopiert alle Ordner aufs Startverzeichniss eurer SD Karte.
 2. Geht dann in Hekate, unter "Tools" auf "Partition SD" und wählt anschließend "Flash Linux" und oder "Flash Android" aus (dies wird die Dateien auf die erstellte Linux oder Android Partition flashen).
 
 ## Immer im RCM Modus starten

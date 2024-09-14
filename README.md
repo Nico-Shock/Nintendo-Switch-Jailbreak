@@ -114,9 +114,9 @@ https://github.com/user-attachments/assets/519954b8-f653-460f-8a7c-23a3ad105ab2
 
 ## Wiederherstellung des NAND
 
-1. Kopiert die zuvor gebackupten Dateien auf eure SD Karte in den "backup" Ordner unter "restore", falls ihr euren SysNAND wiederherstellen wollt. Für den EmuNAND müsst ihr die Dateien dann in den "emummc" Ordner im "backup" Ordner in den "restore" Ordner (nicht den "partitions" Ordner) kopieren.
-2. Geht dann in Hekate und wählt unter "Tools" die Option "Restore eMMC".
-3. Wählt dann "eMMC BOOT0 & BOOT1" und "eMMC RAW GPP" aus, um den NAND wiederherzustellen.
+1. Kopiert die zuvor gebackupten Dateien auf eure SD Karte in den "backup" Ordner unter "restore", wenn ihr euren SysNAND wiederherstellen wollt. Für den EmuNAND müsst ihr die Dateien dann in einen weiteren Unterordner "emummc" unter "restore" (nicht den "partitions" Ordner) kopieren.
+2. Geht dann in Hekate und wählt unter "Tools" die Option "Restore eMMC" aus.
+3. Wählt dann "eMMC BOOT0 & BOOT1" und "eMMC RAW GPP" aus, um die NAND wiederherzustellen.
 
 Hier müsst ihr wieder "SD emuMMC Raw Partition" auswählen, falls ihr statt euren SysNAND euren EmuNAND wiederherstellen wollt.
 

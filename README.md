@@ -112,7 +112,7 @@ https://github.com/user-attachments/assets/519954b8-f653-460f-8a7c-23a3ad105ab2
 
 ![NAND backup](https://github.com/user-attachments/assets/a3070931-1c9b-4ae2-bd97-2a919b057b53)
 
-## Wiederherstellung des NAND
+## Wiederherstellung der NAND
 
 1. Kopiert die zuvor gebackupten Dateien auf eure SD Karte in den "backup" Ordner unter "restore", wenn ihr euren SysNAND wiederherstellen wollt. Für den EmuNAND müsst ihr die Dateien dann in einen weiteren Unterordner "emummc" unter "restore" (nicht den "partitions" Ordner) kopieren.
 2. Geht dann in Hekate und wählt unter "Tools" die Option "Restore eMMC" aus.
